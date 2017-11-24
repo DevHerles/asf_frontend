@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+    
+        <template id="mystyle" name="My style" inherit_id="website.assets_frontend">
+            <xpath expr="link[last()]" position="after">
+                <link href="/condominium_frontend/static/less/style.less" rel="stylesheet" type="text/less"/>
+                <link href="/condominium_frontend/static/less/style.css" rel="stylesheet" type="text/css"/>
+
+                <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,900' rel='stylesheet' type='text/css'/>
+                <!-- Material Icons CSS -->
+                <link href="/condominium_frontend/static/assets/fonts/iconfont/material-icons.css" rel="stylesheet"/>
+                <!-- FontAwesome CSS -->
+                <link href="/condominium_frontend/static/assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+                <!-- owl.carousel -->
+                <link href="/condominium_frontend/static/assets/owl.carousel/assets/owl.carousel.css" rel="stylesheet"/>
+                <link href="/condominium_frontend/static/assets/owl.carousel/assets/owl.theme.default.min.css" rel="stylesheet"/>
+                <!-- flexslider -->
+                <link href="/condominium_frontend/static/assets/flexSlider/flexslider.css" rel="stylesheet"/>
+                <!-- materialize -->
+                <link href="/condominium_frontend/static/assets/materialize/css/materialize.min.css" rel="stylesheet"/>
+                <!-- Bootstrap -->
+                <link href="/condominium_frontend/static/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+                <!-- shortcodes -->
+                <link href="/condominium_frontend/static/assets/css/shortcodes/shortcodes.css" rel="stylesheet"/>
+                <!-- Style CSS -->
+                <link href="/condominium_frontend/static/style.css" rel="stylesheet"/>
+            </xpath>
+        </template>
+        
+    </data>
+</odoo>
