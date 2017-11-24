@@ -27,8 +27,8 @@
             <attribute name="style">max-height: 400px;</attribute>
         </xpath>
 
-        <xpath expr="//div[@id='wrapwrap']/header/div/div/div[1]/a" position="replace">
-        </xpath>
+        <!-- <xpath expr="//div[@id='wrapwrap']/header/div/div/div[1]/a" position="replace">
+        </xpath> -->
 
         <xpath expr="//ul[@id='top_menu']" position="before">
             <a href="/" class="logo-brand">

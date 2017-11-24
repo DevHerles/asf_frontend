@@ -2,8 +2,8 @@
 <odoo>
     <data>
 
-        <!-- === Services Page === -->
-        <template name="Services page" id="website.services" page="True">
+        <!-- === Features Page === -->
+        <template name="Features page" id="website.features" page="True">
             <t t-call="website.layout">
 
                 <!--page title start-->
@@ -11,17 +11,34 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h2 class="white-text font-40 text-bold">Services</h2>
+                                <h2 class="white-text font-40 text-bold">Features</h2>
                                 <ol class="breadcrumb">
                                     <li><a href="/">Home</a></li>
-                                    <li class="active">Services</li>
+                                    <li class="active">Features</li>
                                 </ol>
                             </div>
                         </div>
                     </div>
                 </section>
                 <!--page title end-->
+                <section class="section-padding">
+                    <!--promo theme color box start-->
+                    <div class="ptb-50">
+                        <div class="container">
+                            <div class="promo-box brand-bg mb-50">
+                                <div class="promo-info">
+                                    <span class="white-text text-uppercase">Are you impressed with our creative work? </span>
+                                    <h2 class="white-text text-uppercase text-bold no-margin">get solution for your kick ass problem</h2>
+                                </div>
+                                <div class="promo-btn">
+                                    <a href="#" class="btn btn-lg white waves-effect waves-grey">Buy now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--promo theme color box end-->
 
+                </section>
 <!-- 965405117 -->
 <!-- ximena tobar -->
                 
@@ -143,11 +160,11 @@
             </t>
         </template>
 
-        <record id="services_page_link" model="website.menu">
-            <field name="name">Services</field>
-            <field name="url">/page/services</field>
+        <record id="features_page_link" model="website.menu">
+            <field name="name">Features</field>
+            <field name="url">/page/features</field>
             <field name="parent_id" ref="website.main_menu" />
-            <field name="sequence" type="int">99</field>
+            <field name="sequence" type="int">98</field>
         </record>
 
     </data>

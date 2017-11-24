@@ -30,6 +30,7 @@
         'views/layout.xml',
         'views/pages.xml',
         'views/assets.xml',
+        'views/pages/features.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

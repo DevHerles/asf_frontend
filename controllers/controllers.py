@@ -11,12 +11,9 @@ class CondominiumFrontend(http.Controller):
             'teachers': Teachers.search([]),
         })
 
-#     @http.route('/condominium_frontend/condominium_frontend/objects/', auth='public')
-#     def list(self, **kw):
-#         return http.request.render('condominium_frontend.listing', {
-#             'root': '/condominium_frontend/condominium_frontend',
-#             'objects': http.request.env['condominium_frontend.condominium_frontend'].search([]),
-#         })
+    @http.route('/page/features', auth='public', website=True)
+    def list(self, **kw):
+        return http.request.render('website.features')
 
 #     @http.route('/condominium_frontend/condominium_frontend/objects/<model("condominium_frontend.condominium_frontend"):obj>/', auth='public')
 #     def object(self, obj, **kw):
