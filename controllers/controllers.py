@@ -15,6 +15,10 @@ class CondominiumFrontend(http.Controller):
     def list(self, **kw):
         return http.request.render('website.features')
 
+    @http.route('/page/pricing', auth='public', website=True)
+    def list(self, **kw):
+        return http.request.render('website.pricing')
+
 #     @http.route('/condominium_frontend/condominium_frontend/objects/<model("condominium_frontend.condominium_frontend"):obj>/', auth='public')
 #     def object(self, obj, **kw):
 #         return http.request.render('condominium_frontend.object', {

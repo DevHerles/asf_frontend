@@ -130,7 +130,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 }
 .page-title.cover-3 {
     /* background-image: url(../../img/creative/cover-3.jpg); */
-    background-image: url(/condominium/static/assets/img/creative/cover-3.jpg);
+    background-image: url(/condominium/static/assets/img/creative/features.jpeg);
 }
 .page-title.cover-4 {
     background-image: url(../../img/creative/cover-4.jpg);
@@ -141,7 +141,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 Background banner images
 ------------------------------------------------------------*/
 .creative-banner-1 {
-    background-image: url("../../img/creative/creative-banner-1.jpg");  
+    background-image: url("/condominium_frontend/static/assets/img/creative/creative-banner-1.jpg");
 }
 .creative-banner-2 {
     background-image: url("../../img/creative/creative-banner-2.jpg");  

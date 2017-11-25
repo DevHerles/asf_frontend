@@ -1603,7 +1603,7 @@ nav ul li {
 }
 nav ul li:hover, 
 nav ul li.active {
-    background-color: transparent !important;
+    background-color: transparent;
 }
 nav ul a {
     font-size: inherit;

@@ -28,9 +28,15 @@
         'views/views.xml',
         'views/templates.xml',
         'views/layout.xml',
-        'views/pages.xml',
+        # 'views/pages.xml',
+        
         'views/assets.xml',
+        'views/footer.xml',
+        'views/pages/home.xml',
+        'views/pages/contactus.xml',
         'views/pages/features.xml',
+        'views/pages/pricing.xml',
+        'views/pages/services.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

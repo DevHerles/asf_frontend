@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+         <template id="contactuspage_inherit" inherit_id="website.contactus" name="Contáctenos"  active="True" customize_show="True">
+            <xpath expr="//div[@id='wrap']" position="replace">
+                <div id="wrap" class="oe_structure oe_empty">
+                <div id="carousel-thumbnail-indicators" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-thumbnail-indicators" data-slide-to="0" class="active">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="/site_magic3brothers/static/src/img/slide1.jpg"/>
+                    </div>
+                    </li>
+                    <li data-target="#carousel-thumbnail-indicators" data-slide-to="1">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="/site_magic3brothers/static/src/img/slide2.jpg"/>
+                    </div>
+                    </li>
+                    <li data-target="#carousel-thumbnail-indicators" data-slide-to="2">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="/site_magic3brothers/static/src/img/slide3.jpg"/>
+                    </div>
+                    </li>
+                    <li data-target="#carousel-thumbnail-indicators" data-slide-to="3">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="/site_magic3brothers/static/src/img/slide4.jpg"/>
+                    </div>
+                    </li>                                   
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item slides active">
+                    <div class="slide-1">
+                        <a href="/p/aboutus"><img class="slide-img" src="/site_magic3brothers/static/src/img/slide1.jpg"/></a>
+                    </div>
+                    <div class="container">
+                        <div class="carousel-caption">
+                        <h2>About Us</h2>
+                        <h3>Dedication to every client's success.</h3>
+                        <p><a class="btn btn-success btn-large" href="/p/aboutus">Click</a></p>                  
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item slides">
+                    <div class="slide-2">
+                        <a href="/p/join"><img class="slide-img" src="/site_magic3brothers/static/src/img/slide2.jpg"/></a>
+                    </div>
+                    <div class="container">
+                        <div class="carousel-caption">
+                        <h2>Join Us</h2>
+                        <h3>Make an impact.</h3>
+                        <a class="btn btn-success btn-large" href="/p/join">Join</a>                  
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item slides">
+                    <div class="slide-3">
+                        <a href="/p/services"><img class="slide-img" src="/site_magic3brothers/static/src/img/slide3.jpg"/></a>
+                    </div>
+                    <div class="container">
+                        <div class="carousel-caption">
+                        <h2>Products</h2>
+                        <h3>Magic city</h3>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item slides">
+                    <div class="slide-4">
+                        <a href="/p/services"><img class="slide-img" src="/site_magic3brothers/static/src/img/slide4.jpg"/></a>
+                    </div>
+                    <div class="container">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    </div>                        
+                </div>
+                <a class="left carousel-control" href="#carousel-thumbnail-indicators" role="button" data-slide="prev"><img src="/site_magic3brothers/static/src/img/left.png"/></a>
+                <a class="right carousel-control" href="#carousel-thumbnail-indicators" role="button" data-slide="next"><img src="/site_magic3brothers/static/src/img/right.png"/></a>
+                </div> 
+                </div>  
+            </xpath>
+            </template> 
+    </data>
+</odoo>

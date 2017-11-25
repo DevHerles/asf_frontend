@@ -10,12 +10,30 @@
     </template>
 
     <!-- Customize header  -->
+    <!-- <template id="layout_logo_show_" inherit_id="website.layout" customize_show="True" name="Show Logo">
+        <xpath expr="//header/div[@class='navbar navbar-default navbar-static-top']" position="attributes">
+            <attribute name="class">header-sticky light-header</attribute>
+        </xpath>
+    </template> -->
+
+    <template id="layout_logo_show_" inherit_id="website.layout" customize_show="True" name="Show Logo">
+        <xpath expr="//header//a[@class='navbar-brand logo']" position="replace">
+        </xpath>
+    </template>
+
     <template id="custom_header" inherit_id="website.layout" name="Custom Header">
         <!-- Assign an id & class -->
         <xpath expr="//div[@id='wrapwrap']/header" position="attributes">
             <attribute name="id">header</attribute>
             <attribute name="class">tt-nav transparent-header nav-border-bottom</attribute>
         </xpath>
+
+        <xpath expr="//div[@id='wrapwrap']/header/div[@class='navbar navbar-default navbar-static-top']" position="attributes">
+            <attribute name="class">header-sticky light-header</attribute>
+        </xpath>
+
+        <!-- <xpath expr="//header//a[@class='navbar-brand logo']" position="replace">
+        </xpath> -->
 
         <xpath expr="//div[@id='wrapwrap']/header/div/div/div[2]" position="attributes">
             <attribute name="id">materialize-menu</attribute>
@@ -27,9 +45,6 @@
             <attribute name="style">max-height: 400px;</attribute>
         </xpath>
 
-        <!-- <xpath expr="//div[@id='wrapwrap']/header/div/div/div[1]/a" position="replace">
-        </xpath> -->
-
         <xpath expr="//ul[@id='top_menu']" position="before">
             <a href="/" class="logo-brand">
                 <img class="logo-dark" src="/logo.png" t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
@@ -37,6 +52,7 @@
             </a>
             <!--logo end-->
         </xpath>
+
 
         <!-- Add an element after the top menu  -->
         <!-- <xpath expr="//div[@id='wrapwrap']/header/div" position="after">
@@ -46,6 +62,11 @@
             </div>
             </div>
         </xpath> -->
+    </template>
+
+    <template id="inherit_layout_footer_copyright" inherit_id="website.layout" name="Footer Copyright">
+        <xpath expr="//footer/div[@class='container mt16 mb8']" position="replace">
+        </xpath>
     </template>
   </data>
 </odoo>

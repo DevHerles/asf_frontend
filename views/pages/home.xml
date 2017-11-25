@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <template id="homepage_inherit" inherit_id="website.homepage" name="Inicio"  active="True" customize_show="True">
+            <xpath expr="//div[@id='wrap']" position="replace">
+                <div id="wrap">
+                    <section class="creative-banner-1 bg-fixed parallax-bg overlay purple-7 fullscreen-banner valign-wrapper" data-stellar-background-ratio="0.5">
+                        <div class="valign-cell">
+                        <div class="container padding-top-160">
+                            <div class="text-center">
+                                <h1 class="intro-title text-capitalize white-text">We Build Brand</h1>
+                                <span class="sub-intro lead white-text">Specialising in customer experiences &amp; brand development, we combine digital craftsmanship.</span>
+                                <a href="#." class="btn btn-lg waves-effect waves-light mt-30">Learn More</a>
+                            </div><!-- hs-content-inner -->
+                        </div><!-- /.container -->
+                        </div><!-- /.container -->
+                    </section>
+
+                    <section class="section-padding">
+                        <div class="container">
+
+                        <div class="text-center mb-80">
+                            <h2 class="section-title text-uppercase">What We Do</h2>
+                            <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam nulla ac nisi rhoncus.</p>
+                        </div>
+
+                        <div class="row no-gutter">
+                            <div class="col-md-3 col-sm-6">
+                                <div class="featured-box border-right text-center hover brand-hover">
+                                    <div class="featured-wrapper">
+                                    <div class="intro-header">
+                                        <i class="material-icons brand-icon">&#xE53B;</i>
+                                        <h2>Creative Artist</h2>
+                                    </div>
+
+                                    <div class="content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis repellat quo vitae tempora.</p>
+                                    </div>
+                                    </div><!-- /.featured-wrapper -->
+                                </div><!-- /.featured-box  -->
+                            </div><!-- /.col-md-3 -->
+
+                            <div class="col-md-3 col-sm-6">
+                                <div class="featured-box border-right text-center hover brand-hover">
+                                    <div class="featured-wrapper">
+                                    <div class="intro-header">
+                                        <i class="material-icons brand-icon">&#xE051;</i>
+                                        <h2>Web Design</h2>
+                                    </div>
+
+                                    <div class="content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis repellat quo vitae tempora.</p>
+                                    </div>
+                                    </div><!-- /.featured-wrapper -->
+                                </div><!-- /.featured-box  -->
+                            </div><!-- /.col-md-3 -->
+
+                            <div class="col-md-3 col-sm-6">
+                                <div class="featured-box border-right text-center hover brand-hover">
+                                    <div class="featured-wrapper">
+                                    <div class="intro-header">
+                                        <i class="material-icons brand-icon">&#xE323;</i>
+                                        <h2>App Design</h2>
+                                    </div>
+
+                                    <div class="content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis repellat quo vitae tempora.</p>
+                                    </div>
+                                    </div><!-- /.featured-wrapper -->
+                                </div><!-- /.featured-box  -->
+                            </div><!-- /.col-md-3 -->                  
+
+                            <div class="col-md-3 col-sm-6">
+                                <div class="featured-box text-center hover brand-hover">
+                                    <div class="featured-wrapper">
+                                    <div class="intro-header">
+                                        <i class="material-icons brand-icon">&#xE0B9;</i>
+                                        <h2>Product Research</h2>
+                                    </div>
+
+                                    <div class="content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis repellat quo vitae tempora.</p>
+                                    </div>
+                                    </div><!-- /.featured-wrapper -->
+                                </div><!-- /.featured-box  -->
+                            </div><!-- /.col-md-3 -->
+
+                        </div><!-- /.row -->
+                        </div><!-- /.container -->
+                    </section>
+
+                    
+                </div>
+            </xpath>
+        </template> 
+    </data>
+</odoo>
