@@ -3,81 +3,104 @@
     <data>
          <template id="contactuspage_inherit" inherit_id="website.contactus" name="Contáctenos"  active="True" customize_show="True">
             <xpath expr="//div[@id='wrap']" position="replace">
-                <div id="wrap" class="oe_structure oe_empty">
-                <div id="carousel-thumbnail-indicators" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-thumbnail-indicators" data-slide-to="0" class="active">
-                    <div class="thumbnail">
-                        <img class="img-responsive" src="/site_magic3brothers/static/src/img/slide1.jpg"/>
-                    </div>
-                    </li>
-                    <li data-target="#carousel-thumbnail-indicators" data-slide-to="1">
-                    <div class="thumbnail">
-                        <img class="img-responsive" src="/site_magic3brothers/static/src/img/slide2.jpg"/>
-                    </div>
-                    </li>
-                    <li data-target="#carousel-thumbnail-indicators" data-slide-to="2">
-                    <div class="thumbnail">
-                        <img class="img-responsive" src="/site_magic3brothers/static/src/img/slide3.jpg"/>
-                    </div>
-                    </li>
-                    <li data-target="#carousel-thumbnail-indicators" data-slide-to="3">
-                    <div class="thumbnail">
-                        <img class="img-responsive" src="/site_magic3brothers/static/src/img/slide4.jpg"/>
-                    </div>
-                    </li>                                   
-                </ol>
-                <div class="carousel-inner">
-                    <div class="item slides active">
-                    <div class="slide-1">
-                        <a href="/p/aboutus"><img class="slide-img" src="/site_magic3brothers/static/src/img/slide1.jpg"/></a>
-                    </div>
-                    <div class="container">
-                        <div class="carousel-caption">
-                        <h2>About Us</h2>
-                        <h3>Dedication to every client's success.</h3>
-                        <p><a class="btn btn-success btn-large" href="/p/aboutus">Click</a></p>                  
+                <div id="wrap">
+                    <!--page title start-->
+                    <section class="page-title page-title-center cover-contactus padding-top-220 padding-bottom-120 overlay purple-5 fixed-bg">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2 class="white-text font-40 text-bold">Contáctenos</h2>
+                                    <ol class="breadcrumb">
+                                        <li><a href="/">Inicio</a></li>
+                                        <li class="active">Contáctenos</li>
+                                    </ol>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    </div>
-                    <div class="item slides">
-                    <div class="slide-2">
-                        <a href="/p/join"><img class="slide-img" src="/site_magic3brothers/static/src/img/slide2.jpg"/></a>
-                    </div>
-                    <div class="container">
-                        <div class="carousel-caption">
-                        <h2>Join Us</h2>
-                        <h3>Make an impact.</h3>
-                        <a class="btn btn-success btn-large" href="/p/join">Join</a>                  
+                    </section>
+                    <!--page title end-->
+
+                    <section id="contact" class="section-padding contact-form-wrapper">
+                        
+                        <div class="container">
+                        <div class="row">
+
+                            <div class="col-md-8">
+                                <form name="contact-form" id="contactForm" class="clearfix" action="sendemail.php" method="POST">
+
+                                    <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="input-field">
+                                        <input type="text" name="name" class="validate" id="name"/>
+                                        <label for="name">Nombre</label>
+                                        </div>
+
+                                    </div><!-- /.col-md-6 -->
+
+                                    <div class="col-md-6">
+                                        <div class="input-field">
+                                        <label class="sr-only" for="email">Email</label>
+                                        <input id="email" type="email" name="email" class="validate"/>
+                                        <label for="email" data-error="wrong" data-success="right">Email</label>
+                                        </div>
+                                    </div><!-- /.col-md-6 -->
+                                    </div><!-- /.row -->
+
+                                    <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="input-field">
+                                        <input id="phone" type="tel" name="phone" class="validate"/>
+                                        <label for="phone">Número telefónico</label>
+                                        </div>
+                                    </div><!-- /.col-md-6 -->
+
+                                    <div class="col-md-6">
+                                        <div class="input-field">
+                                        <input id="website" type="text" name="website" class="validate"/>
+                                        <label for="website">Su sitio web</label>
+                                        </div>
+                                    </div><!-- /.col-md-6 -->
+                                    </div><!-- /.row -->
+
+                                    <div class="input-field">
+                                    <textarea name="message" id="message" class="materialize-textarea" ></textarea>
+                                    <label for="message">Mensaje</label>
+                                    </div>
+
+                                    <button type="submit" name="submit" class="waves-effect waves-light btn pink right mt-30">Enviar mensaje</button>
+                                </form>
+                            </div><!-- /.col-md-8 -->
+
+                            <div class="col-md-4 contact-info">
+
+                                <address>
+                                    <i class="material-icons brand-color">&#xE8B4;</i>
+                                    <div class="address">
+                                        Jr. León Velarde 631<br></br>
+                                        Lince, Perú.
+
+                                        <hr></hr>
+
+                                        <!-- <p>Hoffman Parkway, P.O Box 154 Mountain View.<br>
+                                        United States of America.</p> -->
+                                    </div>
+
+                                    <i class="material-icons brand-color">&#xE61C;</i>
+                                    <div class="phone">
+                                        Cellphone: (123) 456-7890
+                                    </div>
+
+                                    <i class="material-icons brand-color">&#xE0B7;</i>
+                                    <div class="mail">
+                                    <p><a href="mailto:#">contacto@arandasf.com</a><br></br>
+                                    <a href="#">www.arandasf.com</a></p>
+                                    </div>
+                                </address>
+                            </div><!-- /.col-md-4 -->
+                        </div><!-- /.row -->
                         </div>
-                    </div>
-                    </div>
-                    <div class="item slides">
-                    <div class="slide-3">
-                        <a href="/p/services"><img class="slide-img" src="/site_magic3brothers/static/src/img/slide3.jpg"/></a>
-                    </div>
-                    <div class="container">
-                        <div class="carousel-caption">
-                        <h2>Products</h2>
-                        <h3>Magic city</h3>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="item slides">
-                    <div class="slide-4">
-                        <a href="/p/services"><img class="slide-img" src="/site_magic3brothers/static/src/img/slide4.jpg"/></a>
-                    </div>
-                    <div class="container">
-                        <div class="carousel-caption">
-                        </div>
-                    </div>
-                    </div>                        
+                    </section>
                 </div>
-                <a class="left carousel-control" href="#carousel-thumbnail-indicators" role="button" data-slide="prev"><img src="/site_magic3brothers/static/src/img/left.png"/></a>
-                <a class="right carousel-control" href="#carousel-thumbnail-indicators" role="button" data-slide="next"><img src="/site_magic3brothers/static/src/img/right.png"/></a>
-                </div> 
-                </div>  
             </xpath>
             </template> 
     </data>

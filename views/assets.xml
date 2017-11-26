@@ -20,6 +20,8 @@
                 <link href="/condominium_frontend/static/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
                 <!-- shortcodes -->
                 <link href="/condominium_frontend/static/assets/css/shortcodes/shortcodes.css" rel="stylesheet"/>
+                <!-- login -->
+                <link href="/condominium_frontend/static/assets/css/shortcodes/login.css" rel="stylesheet"/>
                 <!-- Style CSS -->
                 <link href="/condominium_frontend/static/style.css" rel="stylesheet"/>
 
@@ -46,6 +48,39 @@
                 <script src="/condominium_frontend/static/assets/flexSlider/jquery.flexslider-min.js"></script>
                 <script src="/condominium_frontend/static/assets/magnific-popup/jquery.magnific-popup.min.js"></script>
                 <script src="/condominium_frontend/static/assets/js/scripts.js"></script>
+            
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                <!-- Add this script to add Twitter Feed On Footer Widget -->
+                <script>
+
+                <!-- /**
+                * ### HOW TO CREATE A VALID ID TO USE: ###
+                * Go to www.twitter.com and sign in as normal, go to your settings page.
+                * Go to "Widgets" on the left hand side.
+                * Create a new widget for what you need eg "user time line" or "search" etc.
+                * Feel free to check "exclude replies" if you don't want replies in results.
+                * Now go back to settings page, and then go back to widgets page and
+                * you should see the widget you just created. Click edit.
+                * Look at the URL in your web browser, you will see a long number like this:
+                * 613424231099953152
+                * Use this as your ID below instead!
+                */ -->
+                
+                    if ($('#twitterfeed').length > 0) {
+                        var twitterWidgetConfig = {
+                            id: "934678562178605056", 
+                            domId: "twitterfeed",
+                            maxTweets: 2,
+                            enableLinks: true,
+                            showUser: true,
+                            showTime: true,
+                            showInteraction: false
+                        };
+
+                        twitterFetcher.fetch(twitterWidgetConfig);
+                    }
+
+                </script>
             </xpath>
         </template>
         

@@ -14,7 +14,7 @@ from odoo import models, fields, api
 #     def _value_pc(self):
 #         self.value2 = float(self.value) / 100
 
-class Teachers(models.Model):
-    _name = 'condominium_frontend.teachers'
+# class Teachers(models.Model):
+#     _name = 'condominium_frontend.teachers'
 
-    name = fields.Char()
+#     name = fields.Char()

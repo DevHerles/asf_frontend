@@ -47,8 +47,8 @@
 
         <xpath expr="//ul[@id='top_menu']" position="before">
             <a href="/" class="logo-brand">
-                <img class="logo-dark" src="/logo.png" t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
-                <img class="logo-light" src="/logo.png" t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
+                <img class="logo-dark" src="/condominium_frontend/static/assets/img/aranda-logo-full.png" t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
+                <img class="logo-light" src="/condominium_frontend/static/assets/img/aranda-logo-full-white.png" t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
             </a>
             <!--logo end-->
         </xpath>
@@ -68,5 +68,6 @@
         <xpath expr="//footer/div[@class='container mt16 mb8']" position="replace">
         </xpath>
     </template>
+
   </data>
 </odoo>

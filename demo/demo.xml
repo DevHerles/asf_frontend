@@ -1,6 +1,6 @@
 <odoo>
     <data>
-        <record id="padilla" model="condominium_frontend.teachers">
+        <!-- <record id="padilla" model="condominium_frontend.teachers">
             <field name="name">Diana Padilla</field>
         </record>
         <record id="carroll" model="condominium_frontend.teachers">
@@ -8,7 +8,7 @@
         </record>
         <record id="vaughn" model="condominium_frontend.teachers">
             <field name="name">Lester Vaughn</field>
-        </record>
+        </record> -->
         <!--  -->
         <!--   <record id="object0" model="condominium_frontend.condominium_frontend"> -->
         <!--     <field name="name">Object 0</field> -->

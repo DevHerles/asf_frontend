@@ -2,14 +2,14 @@
 from odoo import http
 
 class CondominiumFrontend(http.Controller):
-    @http.route('/page/condominium_frontend/', auth='public', website=True)
-    def index(self, **kw):
-        # return "Hello, world 222"
-        Teachers = http.request.env['condominium_frontend.teachers']
+    # @http.route('/page/condominium_frontend/', auth='public', website=True)
+    # def index(self, **kw):
+    #     # return "Hello, world 222"
+    #     Teachers = http.request.env['condominium_frontend.teachers']
 
-        return http.request.render('condominium_frontend.index', {
-            'teachers': Teachers.search([]),
-        })
+    #     return http.request.render('condominium_frontend.index', {
+    #         'teachers': Teachers.search([]),
+    #     })
 
     @http.route('/page/features', auth='public', website=True)
     def list(self, **kw):
