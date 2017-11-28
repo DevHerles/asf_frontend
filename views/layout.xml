@@ -32,9 +32,6 @@
             <attribute name="class">header-sticky light-header</attribute>
         </xpath>
 
-        <!-- <xpath expr="//header//a[@class='navbar-brand logo']" position="replace">
-        </xpath> -->
-
         <xpath expr="//div[@id='wrapwrap']/header/div/div/div[2]" position="attributes">
             <attribute name="id">materialize-menu</attribute>
             <attribute name="class">menuzord</attribute>
@@ -68,6 +65,11 @@
         <xpath expr="//footer/div[@class='container mt16 mb8']" position="replace">
         </xpath>
     </template>
+
+    <!-- <template id="replace_custom_header" inherit_id="website.layout" name="Replace Custom Header">
+        <xpath expr="//header//div[@class='navbar-header']" position="replace">
+        </xpath>
+    </template> -->
 
   </data>
 </odoo>

@@ -68,6 +68,88 @@
                         </div><!-- /.container -->
 
                     </section>
+
+
+                    <section class="section-padding">
+                        <div class="container">
+                        <div class="text-center mb-80">
+                            <h2 class="section-title text-capitalize">¿Alguna pregunta?</h2>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-md-12 mb-sm-50">
+                                <div class="panel-group flat-accordion brand-accordion z-depth-1" id="flat-one">
+                                    <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#flat-one" href="#collapse-flat-one">
+                                            01. ¿Qué incluye la suscripción?
+                                        </a>
+                                        </h3>
+                                    </div>
+                                    <div id="collapse-flat-one" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                        Consigue acceso a nuestra infraestructura en la nube, además incluye el servidor, las  
+                                        copias de seguridad diarias y el monitoreo de la disponibiliad del servicio las 24 horas 
+                                        los 7 días de la semana. Nuestro equipo de ayuda está disponible de lunes a viernes, las 24 horas.
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#flat-one" href="#collapse-flat-two">
+                                            02. How to install or modify this theme?
+                                        </a>
+                                        </h3>
+                                    </div>
+                                    <div id="collapse-flat-two" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt maiores placeat obcaecati, beatae. Facilis dolore ipsam facere perferendis deserunt commodi blanditiis nisi accusamus omnis, animi vel tenetur cumque, sed veritatis?
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#flat-one" href="#collapse-flat-three">
+                                            03. How to deposit money in themeforest?
+                                        </a>
+                                        </h3>
+                                    </div>
+                                    <div id="collapse-flat-three" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#flat-one" href="#collapse-flat-four">
+                                            04. Can i get support after purchasing this theme?
+                                        </a>
+                                        </h3>
+                                    </div>
+                                    <div id="collapse-flat-four" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+                            </div><!-- /.col-md-12 -->
+                        </div><!-- /.row -->
+
+
+                        <div class="text-center mt-80">
+                            <h2 class="mb-30">Si la respuesta a tu pregunta no está en esta página,</h2>
+                            <a href="#" class="btn btn-lg waves-effect waves-light">Contacta con nuestros gestores de cuentas</a>
+                        </div>
+                        </div><!-- /.container -->
+                    </section>
                 </div>
             </t>
         </template>

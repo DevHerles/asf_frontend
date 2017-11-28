@@ -31,7 +31,7 @@
             </xpath>
             <xpath expr="//script[last()]" position="after">
                 <!-- jQuery -->
-                <script src="/condominium_frontend/static/assets/js/jquery-2.1.3.min.js"></script>
+                <!-- <script src="/condominium_frontend/static/assets/js/jquery-2.1.3.min.js"></script> -->
                 <script src="/condominium_frontend/static/assets/bootstrap/js/bootstrap.min.js"></script>
                 <script src="/condominium_frontend/static/assets/materialize/js/materialize.min.js"></script>
                 <script src="/condominium_frontend/static/assets/js/jquery.easing.min.js"></script>
