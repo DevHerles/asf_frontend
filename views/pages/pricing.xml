@@ -25,48 +25,121 @@
                     <section class="section-padding gray-bg">
                         <div class="container">
 
-                        <div class="text-center mb-80">
-                            <h2 class="section-title text-uppercase">Pricing table 3</h2>
-                            <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam nulla ac nisi rhoncus.</p>
-                        </div>
+                            <div class="text-center mb-80 asf-header">
+                                <h2 class="section-title text-uppercase">Pricing table 3</h2>
+                                <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam nulla ac nisi rhoncus.</p>
+                            </div>
 
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="pricing-table">
-                                    <div class="table-contents text-center">
-                                        <div class="table-header brand-hover">
-                                            <div class="package-name">
-                                                <span>Premium</span>
-                                            </div> 
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="pricing-table">
+                                        <div class="table-contents text-center">
+                                            <div class="table-header brand-hover">
+                                                <div class="package-name">
+                                                    <span>Basic</span>
+                                                </div> 
+                                                <div class="limit">
+                                                    <span>Hasta 25 usuarios</span>
+                                                </div>
+                                                <div class="package-price">
+                                                    <span class="currency-symbol">S/.</span>
+                                                    <span class="price">4<sup>.99</sup></span>
+                                                    <span class="currency-code">/Usuario</span>
+                                                </div>
+                                            </div> <!-- /.table-header -->
 
-                                            <div class="package-price">
-                                                <span class="currency-symbol">$</span>
-                                                <span class="price">99</span>
-                                                <span class="currency-code">/Day</span>
-                                            </div>
-                                        </div> <!-- /.table-header -->
+                                            <div class="table-info">
+                                                <ul>
+                                                    <li>Mensual x Usuario</li>
+                                                    <li>Free Snacks</li>
+                                                    <li>Printed T-Shirt</li>
+                                                    <li><del>Workshop</del></li>
+                                                    <li><del>Certificate</del></li>
+                                                </ul>                                
+                                            </div><!-- /.table-info -->
 
-                                        <div class="table-info">
-                                            <ul>
-                                                <li>Front Seats</li>
-                                                <li>Free Snacks</li>
-                                                <li>Printed T-Shirt</li>
-                                                <li>Workshop</li>
-                                                <li>Certificate</li>
-                                            </ul>                                
-                                        </div><!-- /.table-info -->
+                                            <div class="table-footer">
+                                                <div class="purchase-button">
+                                                    <a class="btn btn-lg text-capitalize waves-effect waves-light" href="">Buy Now</a>
+                                                </div>   
+                                            </div> <!-- /.table-footer -->
+                                        </div> <!-- /.table-contents -->
+                                    </div><!-- /.pricing-table -->
+                                </div><!-- /.col-md-4 -->
 
-                                        <div class="table-footer">
-                                            <div class="purchase-button">
-                                                <a class="btn btn-lg text-capitalize waves-effect waves-light" href="">Buy Now</a>
-                                            </div>   
-                                        </div> <!-- /.table-footer -->
-                                    </div> <!-- /.table-contents -->
-                                </div><!-- /.pricing-table -->
-                            </div><!-- /.col-md-4 -->
-                        </div><!-- /.row -->
+                                <div class="col-md-4 best">
+                                    <div class="pricing-table default">
+                                        <div class="table-contents text-center">
+                                            <div class="table-header brand-hover">
+                                                <div class="package-name">
+                                                    <span>Standard</span>
+                                                </div> 
+                                                <div class="limit">
+                                                    <span>Hasta 100 usuarios</span>
+                                                </div>
+                                                <div class="package-price">
+                                                    <span class="currency-symbol">S/.</span>
+                                                    <span class="price">4<sup>.49</sup></span>
+                                                    <span class="currency-code">/Usuario</span>
+                                                </div>
+                                            </div> <!-- /.table-header -->
+
+                                            <div class="table-info">
+                                                <ul>
+                                                    <li>Mensual x Usuario</li>
+                                                    <li>Free Snacks</li>
+                                                    <li>Printed T-Shirt</li>
+                                                    <li>Workshop</li>
+                                                    <li><del>Certificate</del></li>
+                                                </ul>                                
+                                            </div><!-- /.table-info -->
+
+                                            <div class="table-footer">
+                                                <div class="purchase-button">
+                                                    <a class="btn btn-lg text-capitalize waves-effect waves-light" href="">Buy Now</a>
+                                                </div>   
+                                            </div> <!-- /.table-footer -->
+                                        </div> <!-- /.table-contents -->
+                                    </div><!-- /.pricing-table -->
+                                </div><!-- /.col-md-4 -->
+
+                                <div class="col-md-4">
+                                    <div class="pricing-table">
+                                        <div class="table-contents text-center">
+                                            <div class="table-header brand-hover">
+                                                <div class="package-name">
+                                                    <span>Premium</span>
+                                                </div> 
+                                                <div class="limit">
+                                                    <span>Más de 100 usuarios</span>
+                                                </div>
+                                                <div class="package-price">
+                                                    <span class="currency-symbol">S/.</span>
+                                                    <span class="price">3<sup>.99</sup></span>
+                                                    <span class="currency-code">/Usuario</span>
+                                                </div>
+                                            </div> <!-- /.table-header -->
+
+                                            <div class="table-info">
+                                                <ul>
+                                                    <li>Mensual x Usuario</li>
+                                                    <li>Free Snacks</li>
+                                                    <li>Printed T-Shirt</li>
+                                                    <li>Workshop</li>
+                                                    <li>Certificate</li>
+                                                </ul>                                
+                                            </div><!-- /.table-info -->
+
+                                            <div class="table-footer">
+                                                <div class="purchase-button">
+                                                    <a class="btn btn-lg text-capitalize waves-effect waves-light" href="">Buy Now</a>
+                                                </div>   
+                                            </div> <!-- /.table-footer -->
+                                        </div> <!-- /.table-contents -->
+                                    </div><!-- /.pricing-table -->
+                                </div><!-- /.col-md-4 -->
+                            </div><!-- /.row -->
                         </div><!-- /.container -->
-
                     </section>
 
 
@@ -145,7 +218,11 @@
 
 
                         <div class="text-center mt-80">
-                            <h2 class="mb-30">Si la respuesta a tu pregunta no está en esta página,</h2>
+                            <h2 class="mb-30">
+                                ¡Estamos preparados para ayudarte!
+                            </h2>
+                            <span>En DupleX ERP nos apasiona el éxito de nuestros clientes.</span>
+                            <span>Si la respuesta a tu pregunta no está en esta página,</span>
                             <a href="#" class="btn btn-lg waves-effect waves-light">Contacta con nuestros gestores de cuentas</a>
                         </div>
                         </div><!-- /.container -->

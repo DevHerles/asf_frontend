@@ -5,6 +5,34 @@
         <!-- === Features Page === -->
         <template name="Características" id="website.features" page="True">
             <t t-call="website.layout">
+                <!-- <nav class="navbar o_sub_nav">
+                    <div class="container">
+                        <a class="navbar-header" href="#" style="position: relative; overflow: hidden;">
+                            <span class="o_app_name_logo"></span>
+                            <span class="o_app_name_title"><span>|</span>Compra</span>
+                        </a>
+                        <div class="collapse navbar-collapse">
+                            <div class="call-to-action navbar-right">            
+                                <a class="btn btn-primary" href="/es_ES/trial?selected_app=purchase" style="position: relative; overflow: hidden;">Pruébalo gratis</a>
+                            </div>
+                            <ul class="nav navbar-nav navbar-right" id="top_menu">
+                                <li></li>
+                                <li class="divider"></li>                                        
+                                <li>
+                                    <a href="/es_ES/page/purchase" style="position: relative; overflow: hidden;">
+                                        <span>Vista general</span>
+                                    </a>
+                                </li>                                        
+                                <li class="active">
+                                    <a href="/es_ES/page/purchase-features" style="position: relative; overflow: hidden;">
+                                        <span>Funciones</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav> -->
+                    
                 <div id="wrap">
                     <!--page title start-->
                     <section class="page-title page-title-center cover-3 padding-top-220 padding-bottom-120 overlay purple-5 fixed-bg">
@@ -26,7 +54,7 @@
                     <section class="section-padding-features">
                         <div class="container">
 
-                        <div class="text-center mb-80 wow fadeInUp">
+                        <div class="text-center mb-80 wow fadeInUp asf-header">
                             <h2 class="section-title text-uppercase">Condominio</h2>
                             <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam nulla ac nisi rhoncus.</p>
                         </div>
@@ -110,7 +138,7 @@
 
                     <section class="section-padding-features">
                         <div class="container">
-                            <div class="text-center mb-80 wow fadeInUp">
+                            <div class="text-center mb-80 wow fadeInUp asf-header">
                                 <h2 class="section-title text-uppercase">Blog</h2>
                                 <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam nulla ac nisi rhoncus.</p>
                             </div>
@@ -193,7 +221,7 @@
 
                     <section class="section-padding-features">
                         <div class="container">
-                            <div class="text-center mb-80 wow fadeInUp">
+                            <div class="text-center mb-80 wow fadeInUp asf-header">
                                 <h2 class="section-title text-uppercase">Compras</h2>
                                 <p class="section-sub">
                                     Automatice las Solicitudes de Presupuesto y los Pedidos de Compra basándose en 
@@ -204,11 +232,16 @@
                                 <div class="col-md-4 mb-30">
                                     <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
                                         <div class="icon">
-                                            <i class="material-icons colored brand-icon">&#xE91F;</i>
+                                            <i class="material-icons colored brand-icon">&#xE915;</i>
                                         </div>
                                         <div class="desc">
-                                            <h2>Interactue con su público y consérvelo en todas las plataformas</h2>
-                                            <p>Las publicaciones en su blog serán fácilmente compartidas</p>
+                                            <h2>Automatice su flujo de compras</h2>
+                                            <p>
+                                                Mejore el rendimiento de sus compras e inventarios con reglas de contratación 
+                                                en función de los niveles de existencias, órdenes de venta, órdenes de fabricación 
+                                                previstas etc. Seleccione diferentes métodos de reposición para cada producto 
+                                                dependiendo de sus estrategias de fabricación y entrega.
+                                            </p>
                                         </div>
                                     </div><!-- /.featured-item -->
                                 </div><!-- /.col-md-4 -->
@@ -216,11 +249,15 @@
                                 <div class="col-md-4 mb-30">
                                     <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
                                         <div class="icon">
-                                            <i class="material-icons colored brand-icon">&#xE8CD;</i>
+                                            <i class="material-icons colored brand-icon">&#xE52E;</i>
                                         </div>
                                         <div class="desc">
-                                            <h2>Sea partícipe de la historia</h2>
-                                            <p>Haga un comentario al final del post o comente párrafos concretos dentro del blog.</p>
+                                            <h2>Tome decisiones de compra inteligentes aprovechando los mejores precios</h2>
+                                            <p>
+                                                Importe fácilmente listas de precios para tomar decisiones de compra más 
+                                                inteligentes basándose en promociones, cantidades y condiciones 
+                                                contractuales especiales.
+                                            </p>
                                         </div>
                                     </div><!-- /.featured-item -->
                                 </div><!-- /.col-md-4 -->
@@ -228,11 +265,14 @@
                                 <div class="col-md-4 mb-30">
                                     <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
                                         <div class="icon">
-                                            <i class="material-icons colored brand-icon">&#xE80D;</i>
+                                            <i class="material-icons colored brand-icon">&#xE168;</i>
                                         </div>
                                         <div class="desc">
-                                            <h2>Redes sociales</h2>
-                                            <p>Comparta fácilmente en redes sociales (Facebook, Twitter, LinkedIn, Google+, etc.) y optimice su estrategia de contenidos.</p>
+                                            <h2>Gestionar pedidos</h2>
+                                            <p>
+                                                Monitorizar el estado de sus pedidos y la fecha esperada de entrega. Monitorizar 
+                                                su stock y determinar la cantidad y ubicaciones de cada lote de artículos que reciba.
+                                            </p>
                                         </div>
                                     </div><!-- /.featured-item -->
                                 </div><!-- /.col-md-4 -->
@@ -240,11 +280,14 @@
                                 <div class="col-md-4">
                                     <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
                                         <div class="icon">
-                                            <i class="material-icons colored brand-icon">&#xE326;</i>
+                                            <i class="material-icons colored brand-icon">&#xE870;</i>
                                         </div>
                                         <div class="desc">
-                                            <h2>Legible en todos los dispositivos</h2>
-                                            <p>Lea las entradas de su blog favorito en cualquier momento y lugar. Funciona perfectamente en dispositivos móviles, tablets y equipos de escritorio.</p>
+                                            <h2>Gestionar facturación</h2>
+                                            <p>
+                                                Diseñar borradores de facturas que puede modificar fácilmente o cancelar después. 
+                                                Monitorizar pedidos que han sido creados para una fecha futura.
+                                            </p>
                                         </div>
                                     </div><!-- /.featured-item -->
                                 </div><!-- /.col-md-4 -->
@@ -252,23 +295,14 @@
                                 <div class="col-md-4">
                                     <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
                                         <div class="icon">
-                                            <i class="material-icons colored brand-icon">&#xE865;</i>
+                                            <i class="material-icons colored brand-icon">&#xE8B0;</i>
                                         </div>
                                         <div class="desc">
-                                            <h2>Categorías y etiquetas</h2>
-                                            <p>Permitir a la gente navegar por las categorías y etiquetas: ayudar a la gente a encontrar el contenido que están buscando más rápidamente.</p>
-                                        </div>
-                                    </div><!-- /.featured-item -->
-                                </div><!-- /.col-md-4 -->
-
-                                <div class="col-md-4">
-                                    <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
-                                        <div class="icon">
-                                            <i class="material-icons colored brand-icon">&#xE913;</i>
-                                        </div>
-                                        <div class="desc">
-                                            <h2>Autoría</h2>
-                                            <p>Seleccionar fácilmente el nombre de un cotrabajador para conseguir la autoría del post del blog.</p>
+                                            <h2>Gestionar productos</h2>
+                                            <p>
+                                                Crear productos, Añadir referencia proveedor, Comprobar stock y disponiblidad, 
+                                                Especificar la ubicación del almacenaje y Filtros de búsqueda ideal.                                                
+                                            </p>
                                         </div>
                                     </div><!-- /.featured-item -->
                                 </div><!-- /.col-md-4 -->
@@ -279,7 +313,7 @@
 
                     <section class="section-padding-features">
                         <div class="container">
-                            <div class="text-center mb-80 wow fadeInUp">
+                            <div class="text-center mb-80 wow fadeInUp asf-header">
                                 <h2 class="section-title text-uppercase">Ventas</h2>
                                 <p class="section-sub">
                                     Actualice automáticamente sus niveles de existencias y prevea cantidades en base a las ofertas, 
@@ -290,7 +324,7 @@
                                 <div class="col-md-4 mb-30">
                                     <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
                                         <div class="icon">
-                                            <i class="material-icons colored brand-icon">&#xE91F;</i>
+                                            <i class="material-icons colored brand-icon">&#xE337;</i>
                                         </div>
                                         <div class="desc">
                                             <h2>De presupuestos a órdenes de venta</h2>
@@ -320,7 +354,7 @@
                                 <div class="col-md-4 mb-30">
                                     <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
                                         <div class="icon">
-                                            <i class="material-icons colored brand-icon">&#xE80D;</i>
+                                            <i class="material-icons colored brand-icon">&#xE308;</i>
                                         </div>
                                         <div class="desc">
                                             <h2>Órdenes de ventas</h2>
@@ -336,7 +370,7 @@
                                 <div class="col-md-4">
                                     <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
                                         <div class="icon">
-                                            <i class="material-icons colored brand-icon">&#xE326;</i>
+                                            <i class="material-icons colored brand-icon">&#xE312;</i>
                                         </div>
                                         <div class="desc">
                                             <h2>Gestione la Facturación de sus Órdenes de Venta</h2>
@@ -352,7 +386,7 @@
                                 <div class="col-md-4">
                                     <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
                                         <div class="icon">
-                                            <i class="material-icons colored brand-icon">&#xE865;</i>
+                                            <i class="material-icons colored brand-icon">&#xE62F;</i>
                                         </div>
                                         <div class="desc">
                                             <h2>Portal del cliente</h2>
@@ -368,7 +402,7 @@
                                 <div class="col-md-4">
                                     <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
                                         <div class="icon">
-                                            <i class="material-icons colored brand-icon">&#xE913;</i>
+                                            <i class="material-icons colored brand-icon">&#xE619;</i>
                                         </div>
                                         <div class="desc">
                                             <h2>Tipos de productos</h2>
@@ -384,7 +418,7 @@
                                 <div class="col-md-4">
                                     <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
                                         <div class="icon">
-                                            <i class="material-icons colored brand-icon">&#xE913;</i>
+                                            <i class="material-icons colored brand-icon">&#xEB41;</i>
                                         </div>
                                         <div class="desc">
                                             <h2>Informes Intuitivos</h2>
@@ -401,7 +435,7 @@
 
                     <section class="section-padding-features">
                         <div class="container">
-                            <div class="text-center mb-80 wow fadeInUp">
+                            <div class="text-center mb-80 wow fadeInUp asf-header">
                                 <h2 class="section-title text-uppercase">Contabilidad</h2>
                                 <p class="section-sub">
                                     Sáltese la introducción de datos. El Inventario está plenamente integrado con la 
@@ -460,7 +494,7 @@
 
                     <section class="section-padding-features">
                         <div class="container">
-                            <div class="text-center mb-80 wow fadeInUp">
+                            <div class="text-center mb-80 wow fadeInUp asf-header">
                                 <h2 class="section-title text-uppercase">Inventario</h2>
                                 <p class="section-sub">
                                     Sincronice cada transacción con sus inventarios para mantener su valoración actualizada.
