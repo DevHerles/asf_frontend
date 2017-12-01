@@ -10,12 +10,6 @@
     </template>
 
     <!-- Customize header  -->
-    <!-- <template id="layout_logo_show_" inherit_id="website.layout" customize_show="True" name="Show Logo">
-        <xpath expr="//header/div[@class='navbar navbar-default navbar-static-top']" position="attributes">
-            <attribute name="class">header-sticky light-header</attribute>
-        </xpath>
-    </template> -->
-
     <template id="layout_logo_show_" inherit_id="website.layout" customize_show="True" name="Show Logo">
         <xpath expr="//header//a[@class='navbar-brand logo']" position="replace">
         </xpath>
