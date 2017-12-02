@@ -35,14 +35,14 @@
                     
                 <div id="wrap">
                     <!--page title start-->
-                    <section class="page-title page-title-center cover-3 padding-top-220 padding-bottom-120 overlay purple-5 fixed-bg">
+                    <section class="page-title ptb-140">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h2 class="white-text font-40 text-bold">Características del sistema</h2>
+                                    <h2 class="text-bold">About Us</h2>
                                     <ol class="breadcrumb">
-                                        <li><a href="/">Home</a></li>
-                                        <li class="active">Features</li>
+                                        <li><a href="#">Home</a></li>
+                                        <li class="active">About Us</li>
                                     </ol>
                                 </div>
                             </div>
@@ -50,8 +50,27 @@
                     </section>
                     <!--page title end-->
 
+                    <section class="padding-top-70 padding-bottom-50 gray-bg">
+                        <div class="container">
+                            <div class="row equal-height-row">
+                                <div class="col-md-5">
+                                <div class="valign-wrapper equal-height-column">
+                                    <div class="hero-intro valign-cell">
+                                        <h2 class="font-40 line-height-50 mb-40">We help you to create a successful brand</h2>
+                                        
+                                        <p class="no-margin">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque <a href="#">ipsum nec</a>, iaculis justo. Sed at vestibulum purus, sit amet viverra diam. Nulla ac nisi rhoncus,</p>
+                                    </div><!-- /.hero-intro -->
+                                </div><!-- /.container -->
+                                </div>
 
-                    <section class="section-padding-features">
+                                <div class="col-md-7 hero-thumb equal-height-column">
+                                    <img src="/duplex_fe/static/assets/img/seo/macbook-pro.png" class="img-responsive " alt="Image"/>
+                                </div>
+                            </div>
+                        </div><!-- /.container -->
+                    </section>
+                    
+                    <section class="section-padding-features first">
                         <div class="container">
 
                         <div class="text-center mb-80 wow fadeInUp asf-header">
@@ -570,123 +589,7 @@
                         <!--promo theme color box end-->
 
                     </section>
-    <!-- 965405117 -->
-    <!-- ximena tobar -->
-                    
-                    <section class="section-padding gray-bg">
-                        <div class="container">
 
-                        <div class="text-center mb-80">
-                            <h2 class="section-title text-uppercase">Pricing table 3</h2>
-                            <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam nulla ac nisi rhoncus.</p>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="pricing-table">
-                                    <div class="table-contents text-center">
-                                        <div class="table-header brand-hover">
-                                            <div class="package-name">
-                                                <span>Basic</span>
-                                            </div> 
-
-                                            <div class="package-price">
-                                                <span class="currency-symbol">$</span>
-                                                <span class="price">59</span>
-                                                <span class="currency-code">/Day</span>
-                                            </div>
-                                        </div> <!-- /.table-header -->
-
-                                        <div class="table-info">
-                                            <ul>
-                                                <li>Front Seats</li>
-                                                <li>Free Snacks</li>
-                                                <li>Printed T-Shirt</li>
-                                                <li><del>Workshop</del></li>
-                                                <li><del>Certificate</del></li>
-                                            </ul>                                
-                                        </div><!-- /.table-info -->
-
-                                        <div class="table-footer">
-                                            <div class="purchase-button">
-                                                <a class="btn btn-lg text-capitalize waves-effect waves-light" href="">Buy Now</a>
-                                            </div>   
-                                        </div> <!-- /.table-footer -->
-                                    </div> <!-- /.table-contents -->
-                                </div><!-- /.pricing-table -->
-                            </div><!-- /.col-md-4 -->
-
-                            <div class="col-md-4">
-                                <div class="pricing-table">
-                                    <div class="table-contents text-center">
-                                        <div class="table-header brand-hover">
-                                            <div class="package-name">
-                                                <span>Standard</span>
-                                            </div> 
-
-                                            <div class="package-price">
-                                                <span class="currency-symbol">$</span>
-                                                <span class="price">79</span>
-                                                <span class="currency-code">/Day</span>
-                                            </div>
-                                        </div> <!-- /.table-header -->
-
-                                        <div class="table-info">
-                                            <ul>
-                                                <li>Front Seats</li>
-                                                <li>Free Snacks</li>
-                                                <li>Printed T-Shirt</li>
-                                                <li>Workshop</li>
-                                                <li><del>Certificate</del></li>
-                                            </ul>                                
-                                        </div><!-- /.table-info -->
-
-                                        <div class="table-footer">
-                                            <div class="purchase-button">
-                                                <a class="btn btn-lg text-capitalize waves-effect waves-light" href="">Buy Now</a>
-                                            </div>   
-                                        </div> <!-- /.table-footer -->
-                                    </div> <!-- /.table-contents -->
-                                </div><!-- /.pricing-table -->
-                            </div><!-- /.col-md-4 -->
-
-                            <div class="col-md-4">
-                                <div class="pricing-table">
-                                    <div class="table-contents text-center">
-                                        <div class="table-header brand-hover">
-                                            <div class="package-name">
-                                                <span>Premium</span>
-                                            </div> 
-
-                                            <div class="package-price">
-                                                <span class="currency-symbol">$</span>
-                                                <span class="price">99</span>
-                                                <span class="currency-code">/Day</span>
-                                            </div>
-                                        </div> <!-- /.table-header -->
-
-                                        <div class="table-info">
-                                            <ul>
-                                                <li>Front Seats</li>
-                                                <li>Free Snacks</li>
-                                                <li>Printed T-Shirt</li>
-                                                <li>Workshop</li>
-                                                <li>Certificate</li>
-                                            </ul>                                
-                                        </div><!-- /.table-info -->
-
-                                        <div class="table-footer">
-                                            <div class="purchase-button">
-                                                <a class="btn btn-lg text-capitalize waves-effect waves-light" href="">Buy Now</a>
-                                            </div>   
-                                        </div> <!-- /.table-footer -->
-                                    </div> <!-- /.table-contents -->
-                                </div><!-- /.pricing-table -->
-                            </div><!-- /.col-md-4 -->
-                        </div><!-- /.row -->
-                        </div><!-- /.container -->
-
-                    </section>
                 </div>
             </t>
         </template>

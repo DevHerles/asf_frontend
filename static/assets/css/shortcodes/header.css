@@ -122,9 +122,9 @@ Header
 .sticky.transparent-header .header-sticky {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
-.transparent-header .header-sticky {
+/* .transparent-header .header-sticky {
     box-shadow: none;
-}
+} */
 
 .tt-nav.sticky{
     height: 30px;
@@ -153,12 +153,12 @@ Header
 }
 
 
-#header.transparent-header .light-header,
+/* #header.transparent-header .light-header,
 #header.transparent-header .dark-header,
 #header.transparent-header {
     background: transparent !important;
     z-index: 1050;
-}
+} */
 
 #header.transparent-header .menuzord .logo-brand {
     z-index: 1200;
@@ -333,7 +333,7 @@ header.sticky .menuzord-menu>li>a,
 .light.menuzord-menu>li>a>i,
 .transparent-header.sticky .semi-transparent .menuzord-menu>li>a,
 .transparent-header.sticky .semi-transparent .menuzord-menu>li>a>i {
-    color: #fff;
+    color: #202020;
 }
 
 .transparent-header.sticky .menuzord-menu>li>a,

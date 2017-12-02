@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "condominium_frontend",
+    'name': "DupleX ERP Frontend",
 
     'summary': """
         Short (1 phrase/line) summary of the module's purpose, used as
@@ -10,8 +10,8 @@
         Long description of module's purpose
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "ARANDA Software Factory Co.",
+    'website': "http://www.arandasf.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml

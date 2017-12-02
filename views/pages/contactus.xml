@@ -100,6 +100,11 @@
                         </div><!-- /.row -->
                         </div>
                     </section>
+
+                    <!-- map-section -->
+                    <div id="myMap" class="height-350"></div>
+                    <!-- /.map-section -->
+
                 </div>
             </xpath>
             </template> 
