@@ -26,7 +26,7 @@
                         <div class="container">
 
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <div class="featured-item hover-outline brand-hover radius-4">
                                         <div class="icon">
                                             <i class="material-icons colored brand-icon">&#xE0B7;</i>
@@ -36,71 +36,152 @@
                                             <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
                                         </div>
                                     </div><!-- /.featured-item -->
-                                </div><!-- /.col-md-4 -->
+                                </div><!-- /.col-md-3 -->
 
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <div class="featured-item hover-outline brand-hover radius-4">
                                         <div class="icon">
                                             <i class="material-icons colored brand-icon">&#xE912;</i>
                                         </div>
                                         <div class="desc">
                                             <h2>Consultoría</h2>
-                                            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+                                            <p>
+                                                Una solución completa con necesidades modernas de venta minorista con punto 
+                                                de venta, contabilidad, compra y comercialización.
+                                            </p>
                                         </div>
                                     </div><!-- /.featured-item -->
-                                </div><!-- /.col-md-4 -->
+                                </div><!-- /.col-md-3 -->
 
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <div class="featured-item hover-outline brand-hover radius-4">
                                         <div class="icon">
                                             <i class="material-icons colored brand-icon">&#xE8B8;</i>
                                         </div>
                                         <div class="desc">
                                             <h2>Capacitaciones</h2>
-                                            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+                                            <p>
+                                                Lo suficientemente flexible como para adaptar los desafíos de crecimiento, 
+                                                basado en una infraestructura de nube líder y una plataforma futurista.
+                                            </p>
                                         </div>
                                     </div><!-- /.featured-item -->
-                                </div><!-- /.col-md-4 -->
+                                </div><!-- /.col-md-3 -->
 
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <div class="featured-item hover-outline brand-hover radius-4">
                                         <div class="icon">
                                             <i class="material-icons colored brand-icon">&#xE323;</i>
                                         </div>
                                         <div class="desc">
                                             <h2>Soporte</h2>
-                                            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+                                            <p>
+                                                Ofrezca una gama más amplia de productos en numerosas formas de acceso al 
+                                                producto para una mayor visibilidad y ventas.
+                                            </p>
                                         </div>
                                     </div><!-- /.featured-item -->
-                                </div><!-- /.col-md-4 -->
-
-                                <div class="col-md-4">
-                                    <div class="featured-item hover-outline brand-hover radius-4">
-                                        <div class="icon">
-                                            <i class="material-icons colored brand-icon">&#xE412;</i>
-                                        </div>
-                                        <div class="desc">
-                                            <h2>Professional Photography</h2>
-                                            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
-                                        </div>
-                                    </div><!-- /.featured-item -->
-                                </div><!-- /.col-md-4 -->
-
-                                <div class="col-md-4">
-                                    <div class="featured-item hover-outline brand-hover radius-4">
-                                        <div class="icon">
-                                            <i class="material-icons colored brand-icon">&#xE02C;</i>
-                                        </div>
-                                        <div class="desc">
-                                            <h2>Moting Graphics Design</h2>
-                                            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
-                                        </div>
-                                    </div><!-- /.featured-item -->
-                                </div><!-- /.col-md-4 -->
+                                </div><!-- /.col-md-3 -->
                             </div><!-- /.row -->
                         </div>
                         </section>
 
+                        <section class="section-padding">
+                            <div class="container">
+                
+                              <div class="text-center mb-80">
+                                  <h2 class="section-title text-uppercase">Services</h2>
+                                  <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam nulla ac nisi rhoncus.</p>
+                              </div>              
+                
+                              <div class="row">
+                                  <div class="col-md-3 col-sm-6 mb-30">
+                                      <div class="featured-item flat-border-box text-center">
+                                          <div class="icon">
+                                              <i class="material-icons brand-icon">&#xE85C;</i>
+                                          </div>
+                                          <div class="desc">
+                                              <h2>Implementación</h2>
+                
+                                              <ul>
+                                                <li>Brand &amp; Digital Strategy</li>
+                                                <li>User Research: Focus Groups, Interviews</li>
+                                                <li>Personal Development</li>
+                                                <li>Content Strategy</li>
+                                                <li>Voice &amp; Tone</li>
+                                                <li>Website Audits</li>
+                                              </ul>
+                
+                                          </div>
+                                      </div><!-- /.featured-item -->
+                                  </div><!-- /.col-md-3 -->
+                
+                                  <div class="col-md-3 col-sm-6 mb-30">
+                                      <div class="featured-item flat-border-box text-center">
+                                          <div class="icon">
+                                              <i class="material-icons brand-icon">&#xE7FB;</i>
+                                          </div>
+                                          <div class="desc">
+                                              <h2>Consultoría</h2>
+                
+                                              <ul>
+                                                <li>Information Architecture</li>
+                                                <li>User Testing</li>
+                                                <li>Meeting Design:</li>
+                                                <li>Workshops &amp; Seminars</li>
+                                                <li>Wireframing</li>
+                                                <li>Visual Design</li>
+                                              </ul>
+                
+                                          </div>
+                                      </div><!-- /.featured-item -->
+                                  </div><!-- /.col-md-3 -->
+                
+                                  <div class="col-md-3 col-sm-6 mb-30">
+                                      <div class="featured-item flat-border-box text-center">
+                                          <div class="icon">
+                                              <i class="material-icons brand-icon">&#xE53B;</i>
+                                          </div>
+                                          <div class="desc">
+                                              <h2>Capacitaciones</h2>
+                
+                                              <ul>
+                                                <li>Product Design</li>
+                                                <li>User interface Design</li>
+                                                <li>Web &amp; Mobile Design</li>
+                                                <li>Brand Identity</li>
+                                                <li>Visual Design</li>
+                                                <li>Concept Development</li>
+                                              </ul>
+                
+                                          </div>
+                                      </div><!-- /.featured-item -->
+                                  </div><!-- /.col-md-3 -->
+                
+                                  <div class="col-md-3 col-sm-6 mb-30">
+                                      <div class="featured-item flat-border-box text-center">
+                                          <div class="icon">
+                                              <i class="material-icons brand-icon">&#xE8AB;</i>
+                                          </div>
+                                          <div class="desc">
+                                              <h2>Soporte</h2>
+                
+                                              <ul>
+                                                <li>Front End Development</li>
+                                                <li>CMS Development:</li>
+                                                <li>BigTree, Wordpress Drupal</li>
+                                                <li>Product Development</li>
+                                                <li>App Development</li>
+                                                <li>Interactive Kiosk Development</li>
+                                              </ul>
+                
+                                          </div>
+                                      </div><!-- /.featured-item -->
+                                  </div><!-- /.col-md-3 -->
+                              </div><!-- /.row -->
+                            </div><!-- /.container -->
+                        </section>
+                
                 </div>
             </t>
         </template>
