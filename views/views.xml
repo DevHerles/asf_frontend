@@ -2,9 +2,9 @@
   <data>
     <!-- explicit list view definition -->
     <!--
-    <record model="ir.ui.view" id="condominium_frontend.list">
-      <field name="name">condominium_frontend list</field>
-      <field name="model">condominium_frontend.condominium_frontend</field>
+    <record model="ir.ui.view" id="duplex_fe.list">
+      <field name="name">duplex_fe list</field>
+      <field name="model">duplex_fe.duplex_fe</field>
       <field name="arch" type="xml">
         <tree>
           <field name="name"/>
@@ -17,18 +17,18 @@
 
     <!-- actions opening views on models -->
     
-    <record model="ir.actions.act_window" id="condominium_frontend.action_window">
-      <field name="name">condominium_frontend window</field>
-      <field name="res_model">condominium_frontend.teachers</field>
+    <record model="ir.actions.act_window" id="duplex_fe.action_window">
+      <field name="name">duplex_fe window</field>
+      <field name="res_model">duplex_fe.teachers</field>
       <!-- <field name="view_mode">tree,form</field> -->
     </record>
    
 
     <!-- server action to the one above -->
     <!--
-    <record model="ir.actions.server" id="condominium_frontend.action_server">
-      <field name="name">condominium_frontend server</field>
-      <field name="model_id" ref="model_condominium_frontend_condominium_frontend"/>
+    <record model="ir.actions.server" id="duplex_fe.action_server">
+      <field name="name">duplex_fe server</field>
+      <field name="model_id" ref="model_duplex_fe_duplex_fe"/>
       <field name="code">
         action = {
           "type": "ir.actions.act_window",
@@ -41,19 +41,19 @@
 
     <!-- Top menu item -->
     
-    <menuitem sequence="0" id="condominium_frontend.menu_root" name="condominium_frontend" />
+    <menuitem sequence="0" id="duplex_fe.menu_root" name="duplex_fe" />
    
     <!-- menu categories -->
     
-    <menuitem name="Menu 1" id="condominium_frontend.menu_1" parent="condominium_frontend.menu_root"/>
-    <!-- <menuitem name="Menu 2" id="condominium_frontend.menu_2" parent="condominium_frontend.menu_root"/> -->
+    <menuitem name="Menu 1" id="duplex_fe.menu_1" parent="duplex_fe.menu_root"/>
+    <!-- <menuitem name="Menu 2" id="duplex_fe.menu_2" parent="duplex_fe.menu_root"/> -->
    
     <!-- actions -->
     
-    <menuitem name="List" id="condominium_frontend.menu_1_list" parent="condominium_frontend.menu_1"
-              action="condominium_frontend.action_window"/>
-    <!-- <menuitem name="Server to list" id="condominium_frontend" parent="condominium_frontend.menu_2"
-              action="condominium_frontend.action_server"/> -->
+    <menuitem name="List" id="duplex_fe.menu_1_list" parent="duplex_fe.menu_1"
+              action="duplex_fe.action_window"/>
+    <!-- <menuitem name="Server to list" id="duplex_fe" parent="duplex_fe.menu_2"
+              action="duplex_fe.action_server"/> -->
    
   </data>
 </odoo>

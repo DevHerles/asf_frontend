@@ -7,11 +7,11 @@
             <t t-call="website.layout">
                 <div id="wrap">
                     <!--page title start-->
-                    <section class="page-title page-title-center cover-pricing padding-top-220 padding-bottom-120 overlay purple-5 fixed-bg">
+                    <section class="page-title ptb-140">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h2 class="white-text font-40 text-bold">Tabla de precios</h2>
+                                    <h2 class="text-bold white-text">Planes</h2>
                                     <ol class="breadcrumb">
                                         <li><a href="/">Inicio</a></li>
                                         <li class="active">Precios</li>
@@ -22,13 +22,8 @@
                     </section>
                     <!--page title end-->
 
-                    <section class="section-padding gray-bg">
+                    <section class="section-padding-features gray-bg">
                         <div class="container">
-
-                            <div class="text-center mb-80 asf-header">
-                                <h2 class="section-title text-uppercase">Pricing table 3</h2>
-                                <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam nulla ac nisi rhoncus.</p>
-                            </div>
 
                             <div class="row">
                                 <div class="col-md-4">

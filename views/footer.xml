@@ -13,7 +13,7 @@
                             <div class="row">
                                 <div class="col-md-3 widget clearfix">
                                     <!-- <a href="/" class="logo-brand">
-                                        <img src="condominium_frontend/static/assets/img/aranda-logo-full-white.png" alt="logo" />
+                                        <img src="duplex_fe/static/assets/img/aranda-logo-full-white.png" alt="logo" />
                                     </a> -->
                                     <!-- <h2 class="white-text">About <span t-field="res_company.name" /></h2> -->
                                     <h2 class="white-text">Condominium ERP</h2>
@@ -103,7 +103,7 @@
                 <!-- Preloader -->
                 <div id="preloader">
                 <div class="preloader-position"> 
-                    <img src="condominium_frontend/static/assets/img/aranda-logo-ico.png" alt="logo" />
+                    <img src="/duplex_fe/static/assets/img/aranda-logo-ico.png" alt="logo" />
                     <div class="progress">
                     <div class="indeterminate"></div>
                     </div>

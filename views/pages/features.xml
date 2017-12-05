@@ -4,45 +4,17 @@
 
         <!-- === Features Page === -->
         <template name="Características" id="website.features" page="True">
-            <t t-call="website.layout">
-                <!-- <nav class="navbar o_sub_nav">
-                    <div class="container">
-                        <a class="navbar-header" href="#" style="position: relative; overflow: hidden;">
-                            <span class="o_app_name_logo"></span>
-                            <span class="o_app_name_title"><span>|</span>Compra</span>
-                        </a>
-                        <div class="collapse navbar-collapse">
-                            <div class="call-to-action navbar-right">            
-                                <a class="btn btn-primary" href="/es_ES/trial?selected_app=purchase" style="position: relative; overflow: hidden;">Pruébalo gratis</a>
-                            </div>
-                            <ul class="nav navbar-nav navbar-right" id="top_menu">
-                                <li></li>
-                                <li class="divider"></li>                                        
-                                <li>
-                                    <a href="/es_ES/page/purchase" style="position: relative; overflow: hidden;">
-                                        <span>Vista general</span>
-                                    </a>
-                                </li>                                        
-                                <li class="active">
-                                    <a href="/es_ES/page/purchase-features" style="position: relative; overflow: hidden;">
-                                        <span>Funciones</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav> -->
-                    
+            <t t-call="website.layout">                    
                 <div id="wrap">
                     <!--page title start-->
                     <section class="page-title ptb-140">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h2 class="text-bold">About Us</h2>
+                                    <h2 class="text-bold white-text">Características</h2>
                                     <ol class="breadcrumb">
-                                        <li><a href="#">Home</a></li>
-                                        <li class="active">About Us</li>
+                                        <li><a href="/">Inicio</a></li>
+                                        <li class="active">Características</li>
                                     </ol>
                                 </div>
                             </div>
@@ -56,15 +28,37 @@
                                 <div class="col-md-5">
                                 <div class="valign-wrapper equal-height-column">
                                     <div class="hero-intro valign-cell">
-                                        <h2 class="font-40 line-height-50 mb-40">We help you to create a successful brand</h2>
-                                        
+                                        <h2 class="font-40 line-height-50 mb-40">Características de Duplex ERP</h2>
                                         <p class="no-margin">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque <a href="#">ipsum nec</a>, iaculis justo. Sed at vestibulum purus, sit amet viverra diam. Nulla ac nisi rhoncus,</p>
                                     </div><!-- /.hero-intro -->
                                 </div><!-- /.container -->
                                 </div>
 
                                 <div class="col-md-7 hero-thumb equal-height-column">
-                                    <img src="/duplex_fe/static/assets/img/seo/macbook-pro.png" class="img-responsive " alt="Image"/>
+                                    <div class="thumb-carousel circle-thumb text-center">
+                                        <ul class="slides">
+                                            <li data-thumb="/duplex_fe/static/assets/img/client-thumb/5.png">
+                                                <div class="content">
+                                                    <img src="/duplex_fe/static/assets/img/app.webp" class="img-responsive " alt="Image"/>
+                                                </div>
+                                            </li>
+                                            <li data-thumb="/duplex_fe/static/assets/img/client-thumb/2.png">
+                                                <div class="content">
+                                                    <img src="/duplex_fe/static/assets/img/app.webp" class="img-responsive " alt="Image"/>
+                                                </div>
+                                            </li>
+                                            <li data-thumb="/duplex_fe/static/assets/img/client-thumb/3.png">
+                                                <div class="content">
+                                                    <img src="/duplex_fe/static/assets/img/app.webp" class="img-responsive " alt="Image"/>
+                                                </div>
+                                            </li>
+                                            <li data-thumb="/duplex_fe/static/assets/img/client-thumb/4.png">
+                                                <div class="content">
+                                                    <img src="/duplex_fe/static/assets/img/app.webp" class="img-responsive " alt="Image"/>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div><!-- /.container -->
@@ -610,7 +604,7 @@
          -->
 
         
-        <!-- <template id="megamenu_features_page" inherit_id="condominium_frontend.website.features" customize_show="True" name="Show Megamenu">
+        <!-- <template id="megamenu_features_page" inherit_id="duplex_fe.website.features" customize_show="True" name="Show Megamenu">
             <xpath expr="//a[@href='/page/features']" position="after">
                 <div>demo</div>
             </xpath>

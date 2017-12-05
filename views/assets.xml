@@ -12,6 +12,8 @@
                 <!-- owl.carousel -->
                 <link href="/duplex_fe/static/assets/owl.carousel/assets/owl.carousel.css" rel="stylesheet"/>
                 <link href="/duplex_fe/static/assets/owl.carousel/assets/owl.theme.default.min.css" rel="stylesheet"/>
+                <!-- flexslider -->
+                <link href="/duplex_fe/static/assets/flexSlider/flexslider.css" rel="stylesheet"/>
                 <!-- magnific-popup -->
                 <link href="/duplex_fe/static/assets/magnific-popup/magnific-popup.css" rel="stylesheet"/>
                 <!-- materialize -->
@@ -51,11 +53,31 @@
                 <script src="/duplex_fe/static/assets/js/jquery.stellar.min.js"></script>
                 <script src="/duplex_fe/static/assets/magnific-popup/jquery.magnific-popup.min.js"></script>
                 <script src="/duplex_fe/static/assets/owl.carousel/owl.carousel.min.js"></script>
-                <script src="https://maps.googleapis.com/maps/api/js"></script>
+                <script src="/duplex_fe/static/assets/flexSlider/jquery.flexslider-min.js"></script>
+                <!-- <script src="https://maps.googleapis.com/maps/api/js"></script> -->
                 <script src="/duplex_fe/static/assets/js/scripts.js"></script>
 
+                <!-- <script type="text/javascript">
+                    $('.owl-carousel').owlCarousel({
+                        loop:true,
+                        margin:10,
+                        nav:true,
+                        responsive:{
+                            0:{
+                                items:1
+                            },
+                            600:{
+                                items:3
+                            },
+                            1000:{
+                                items:5
+                            }
+                        }
+                    })
+                </script> -->
+                
                 <!-- Google Map Customization  -->
-                <script type="text/javascript">
+                <!-- <script type="text/javascript">
                     jQuery(document).ready(function() {
 
                         //set your google maps parameters
@@ -112,7 +134,7 @@
                         });
                     });
                 </script>
-                
+                 -->    
                 <!-- RS5.0 Core JS Files -->
                 <script src="/duplex_fe/static/assets/revolution/js/jquery.themepunch.tools.min.js"></script>
                 <script src="/duplex_fe/static/assets/revolution/js/jquery.themepunch.revolution.min.js"></script>

@@ -5,11 +5,11 @@
             <xpath expr="//div[@id='wrap']" position="replace">
                 <div id="wrap">
                     <!--page title start-->
-                    <section class="page-title page-title-center cover-contactus padding-top-220 padding-bottom-120 overlay purple-5 fixed-bg">
+                    <section class="page-title ptb-140">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h2 class="white-text font-40 text-bold">Contáctenos</h2>
+                                    <h2 class="text-bold white-text">Contáctenos</h2>
                                     <ol class="breadcrumb">
                                         <li><a href="/">Inicio</a></li>
                                         <li class="active">Contáctenos</li>
@@ -102,7 +102,7 @@
                     </section>
 
                     <!-- map-section -->
-                    <div id="myMap" class="height-350"></div>
+                    <div id="map" class="height-350"></div>
                     <!-- /.map-section -->
 
                 </div>

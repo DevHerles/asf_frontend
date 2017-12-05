@@ -2,8 +2,8 @@
 
 from odoo import models, fields, api
 
-# class condominium_frontend(models.Model):
-    # _name = 'condominium_frontend.condominium_frontend'
+# class duplex_fe(models.Model):
+    # _name = 'duplex_fe.duplex_fe'
 
 #     name = fields.Char()
 #     value = fields.Integer()
@@ -15,6 +15,6 @@ from odoo import models, fields, api
 #         self.value2 = float(self.value) / 100
 
 # class Teachers(models.Model):
-#     _name = 'condominium_frontend.teachers'
+#     _name = 'duplex_fe.teachers'
 
 #     name = fields.Char()

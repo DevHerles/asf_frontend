@@ -129,26 +129,26 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
     background-image: url(../../img/creative/cover-2.jpg);
 }
 .page-title.cover-3 {
-    background-image: url(/condominium_frontend/static/assets/img/creative/features.png);
+    background-image: url(/duplex_fe/static/assets/img/creative/features.png);
 }
 .page-title.cover-4 {
     background-image: url(../../img/creative/cover-4.jpg);
 }
 .page-title.cover-pricing {
-    background-image: url(/condominium_frontend/static/assets/img/creative/pricing.jpg);
+    background-image: url(/duplex_fe/static/assets/img/creative/pricing.jpg);
 }
 .page-title.cover-contactus {
-    background-image: url(/condominium_frontend/static/assets/img/creative/contact-us.jpg);
+    background-image: url(/duplex_fe/static/assets/img/creative/contact-us.jpg);
 }
 .page-title.cover-login {
-    background-image: url(/condominium_frontend/static/assets/img/creative/login.jpg);
+    background-image: url(/duplex_fe/static/assets/img/creative/login.jpg);
 }
 
 /*
 Background banner images
 ------------------------------------------------------------*/
 .creative-banner-1 {
-    background-image: url("/condominium_frontend/static/assets/img/creative/creative-banner-1.jpg");  
+    background-image: url("/duplex_fe/static/assets/img/creative/creative-banner-1.jpg");  
 }
 .creative-banner-2 {
     background-image: url("../../img/creative/creative-banner-2.jpg");  
