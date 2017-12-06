@@ -29,7 +29,9 @@
                                 <div class="valign-wrapper equal-height-column">
                                     <div class="hero-intro valign-cell">
                                         <h2 class="font-40 line-height-50 mb-40">Características de Duplex ERP</h2>
-                                        <p class="no-margin">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque <a href="#">ipsum nec</a>, iaculis justo. Sed at vestibulum purus, sit amet viverra diam. Nulla ac nisi rhoncus,</p>
+                                        <p class="no-margin">
+                                            Duplex ERP cuenta con 10 módulos disponibles para resolver todas sus necesidades.
+                                        </p>
                                     </div><!-- /.hero-intro -->
                                 </div><!-- /.container -->
                                 </div>
@@ -565,25 +567,6 @@
                         </div><!-- /.container -->
                     </section>
                     
-                    <section class="section-padding">
-                        <!--promo theme color box start-->
-                        <div class="ptb-50">
-                            <div class="container">
-                                <div class="promo-box brand-bg mb-50">
-                                    <div class="promo-info">
-                                        <span class="white-text text-uppercase">Are you impressed with our creative work? </span>
-                                        <h2 class="white-text text-uppercase text-bold no-margin">get solution for your kick ass problem</h2>
-                                    </div>
-                                    <div class="promo-btn">
-                                        <a href="#" class="btn btn-lg white waves-effect waves-grey">Buy now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--promo theme color box end-->
-
-                    </section>
-
                 </div>
             </t>
         </template>
