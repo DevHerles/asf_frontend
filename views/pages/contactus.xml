@@ -67,7 +67,7 @@
                                     <label for="message">Mensaje</label>
                                     </div>
 
-                                    <button type="submit" name="submit" class="waves-effect waves-light btn pink right mt-30">Enviar mensaje</button>
+                                    <button type="submit" name="submit" class="waves-effect waves-light btn btn-orange right mt-30">Enviar mensaje</button>
                                 </form>
                             </div><!-- /.col-md-8 -->
 

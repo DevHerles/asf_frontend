@@ -33,7 +33,7 @@
                     <div class="col-md-6 text-right">
                         <ul class="topbar-cta no-margin">
                         <li class="mr-20">
-                            <a><i class="material-icons mr-10">&#xE0B9;</i>info@materialize.com</a>
+                            <a><i class="material-icons mr-10">&#xE0B9;</i>info@duplex.pe</a>
                         </li>
                         <li>
                             <a><i class="material-icons mr-10">&#xE0CD;</i> +01 123 456 78</a>
@@ -54,15 +54,6 @@
 
     <template id="remove_sign_in" customize_show="True" inherit_id="website.layout" name="Show Sign In">
         <xpath expr="//ul[@id='top_menu']/li[last()]" position="replace">
-            <!-- <li class="divider" groups="base.group_public"/>
-            <li groups="base.group_public">
-                <div class="search-wrapper">
-                    <div class="search-trigger pull-right">
-                        <div class='search-btn'></div>
-                        <i class="material-icons" style="width:20px">&#xE853;</i>
-                    </div>
-                </div>
-            </li> -->
         </xpath>
     </template>
 
@@ -132,29 +123,12 @@
                 <img class="logo-dark" src="/duplex_fe/static/assets/img/aranda-logo-full.png" t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
                 <img class="logo-light" src="/duplex_fe/static/assets/img/aranda-logo-full-white.png" t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
             </a>
-            <!--logo end-->
         </xpath>
-
-
-        <!-- Add an element after the top menu  -->
-        <!-- <xpath expr="//div[@id='wrapwrap']/header/div" position="after">
-            <div class="container">
-            <div class="alert alert-info mt16" role="alert">
-                <strong>Welcome</strong> in our website!
-            </div>
-            </div>
-        </xpath> -->
     </template>
 
     <template id="inherit_layout_footer_copyright" inherit_id="website.layout" name="Footer Copyright">
         <xpath expr="//footer/div[@class='container mt16 mb8']" position="replace">
         </xpath>
     </template>
-
-    <!-- <template id="replace_custom_header" inherit_id="website.layout" name="Replace Custom Header">
-        <xpath expr="//header//div[@class='navbar-header']" position="replace">
-        </xpath>
-    </template> -->
-
   </data>
 </odoo>

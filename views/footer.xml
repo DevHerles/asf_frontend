@@ -6,7 +6,7 @@
                 <footer class="footer footer-one">
                     <div class="primary-footer brand-bg">
                         <div class="container">
-                            <a href="#top" class="page-scroll btn-floating btn-large pink back-top waves-effect waves-light" data-section="#top">
+                            <a href="#top" class="page-scroll btn-floating btn-large orange back-top waves-effect waves-light" data-section="#top">
                             <i class="material-icons">&#xE316;</i>
                             </a>
 
@@ -16,9 +16,9 @@
                                         <img src="duplex_fe/static/assets/img/aranda-logo-full-white.png" alt="logo" />
                                     </a> -->
                                     <!-- <h2 class="white-text">About <span t-field="res_company.name" /></h2> -->
-                                    <h2 class="white-text">Condominium ERP</h2>
+                                    <h2 class="white-text">Duplex ERP</h2>
                                     <p>
-                                        El primer ERP en línea para la administración de Condominios.
+                                        El primer ERP en línea para la administración de Edificios y Condominios.
                                     </p>
 
                                     <address>
@@ -36,8 +36,8 @@
 
                                         <i class="material-icons brand-color">&#xE0B7;</i>
                                         <div class="mail">
-                                            <p><a href="mailto:#">contacto@arandasf.com</a><br></br>
-                                            <a href="#">www.arandasf.com</a></p>
+                                            <p><a href="mailto:#">info@duplex.pe</a><br></br>
+                                            <a href="#">www.duplex.pe</a></p>
                                         </div>
                                     </address>
 
@@ -54,14 +54,13 @@
 
                                 
                                 <div class="col-md-3 widget">
-                                    <h2 class="white-text">Imporant links</h2>
+                                    <h2 class="white-text">Enlances importantes</h2>
 
                                     <ul class="footer-list">
-                                        <li><a href="#">About us</a></li>
-                                        <li><a href="#">Services</a></li>
-                                        <li><a href="#">Terms &amp; Condition</a></li>
-                                        <li><a href="#">Privacy Policy</a></li>
-                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="/">Inicio</a></li>
+                                        <li><a href="/page/features">Características</a></li>
+                                        <li><a href="/page/pricing">Precios</a></li>
+                                        <li><a href="/page/contactus">Contáctenos</a></li>
                                     </ul>
                                 </div><!-- /.col-md-3 -->
 

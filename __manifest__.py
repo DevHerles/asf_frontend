@@ -36,7 +36,7 @@
         'views/pages/contactus.xml',
         'views/pages/features.xml',
         'views/pages/pricing.xml',
-        'views/pages/services.xml',
+        # 'views/pages/services.xml',
         'views/pages/login.xml',
     ],
     # only loaded in demonstration mode

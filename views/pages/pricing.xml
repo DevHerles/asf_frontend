@@ -25,9 +25,15 @@
                     <section class="section-padding gray-bg">
                         <div class="container">
                             <div class="text-center mb-80">
-                                <h2 class="section-title text-capitalize">
+                                <h2 class="section-title">
                                     El único ERP para administradores de condominios y edificios.
                                 </h2>
+                                <p>
+                                    Consigue acceso a nuestra infraestructura en la nube, además incluye el servidor, 
+                                    las copias de seguridad diarias y el monitoreo de la disponibiliad del servicio 
+                                    las 24 horas los 7 días de la semana. Nuestro equipo de ayuda está disponible de 
+                                    lunes a viernes, las 24 horas.
+                                </p>
                             </div>
 
                             <div class="row">
@@ -50,11 +56,16 @@
 
                                             <div class="table-info">
                                                 <ul>
-                                                    <li>Mensual x Usuario</li>
-                                                    <li>Free Snacks</li>
-                                                    <li>Printed T-Shirt</li>
-                                                    <li><del>Workshop</del></li>
-                                                    <li><del>Certificate</del></li>
+                                                    <li>Condominio</li>
+                                                    <li>Encuestas</li>
+                                                    <li>Ventas</li>
+                                                    <li>Blog</li>
+                                                    <li>Seguimiento de problemas</li>
+                                                    <li><del>Compras</del></li>
+                                                    <li><del>Presupuestos</del></li>
+                                                    <li><del>Facturación</del></li>
+                                                    <li><del>Inventarios</del></li>
+                                                    <li><del>Contabilidad</del></li>
                                                 </ul>                                
                                             </div><!-- /.table-info -->
 
@@ -79,18 +90,23 @@
                                                 </div>
                                                 <div class="package-price">
                                                     <span class="currency-symbol">S/.</span>
-                                                    <span class="price">4<sup>.49</sup></span>
+                                                    <span class="price">5<sup>.49</sup></span>
                                                     <span class="currency-code">/Usuario</span>
                                                 </div>
                                             </div> <!-- /.table-header -->
 
                                             <div class="table-info">
                                                 <ul>
-                                                    <li>Mensual x Usuario</li>
-                                                    <li>Free Snacks</li>
-                                                    <li>Printed T-Shirt</li>
-                                                    <li>Workshop</li>
-                                                    <li><del>Certificate</del></li>
+                                                    <li>Condominio</li>
+                                                    <li>Encuestas</li>
+                                                    <li>Ventas</li>
+                                                    <li>Blog</li>
+                                                    <li>Seguimiento de problemas</li>
+                                                    <li>Compras</li>
+                                                    <li>Presupuestos</li>
+                                                    <li>Facturación</li>
+                                                    <li><del>Inventarios</del></li>
+                                                    <li><del>Contabilidad</del></li>
                                                 </ul>                                
                                             </div><!-- /.table-info -->
 
@@ -115,18 +131,23 @@
                                                 </div>
                                                 <div class="package-price">
                                                     <span class="currency-symbol">S/.</span>
-                                                    <span class="price">3<sup>.99</sup></span>
+                                                    <span class="price">6<sup>.99</sup></span>
                                                     <span class="currency-code">/Usuario</span>
                                                 </div>
                                             </div> <!-- /.table-header -->
 
                                             <div class="table-info">
                                                 <ul>
-                                                    <li>Mensual x Usuario</li>
-                                                    <li>Free Snacks</li>
-                                                    <li>Printed T-Shirt</li>
-                                                    <li>Workshop</li>
-                                                    <li>Certificate</li>
+                                                    <li>Condominio</li>
+                                                    <li>Encuestas</li>
+                                                    <li>Ventas</li>
+                                                    <li>Blog</li>
+                                                    <li>Seguimiento de problemas</li>
+                                                    <li>Compras</li>
+                                                    <li>Presupuestos</li>
+                                                    <li>Facturación</li>
+                                                    <li>Inventarios</li>
+                                                    <li>Contabilidad</li>
                                                 </ul>                                
                                             </div><!-- /.table-info -->
 
@@ -142,7 +163,7 @@
                         </div><!-- /.container -->
                     </section>
 
-
+<!-- 
                     <section class="section-padding">
                         <div class="container">
                         <div class="text-center mb-80">
@@ -213,8 +234,8 @@
                                     </div>
                                 </div>
 
-                            </div><!-- /.col-md-12 -->
-                        </div><!-- /.row -->
+                            </div>
+                        </div>
 
 
                         <div class="text-center mt-80">
@@ -225,8 +246,8 @@
                             <span>Si la respuesta a tu pregunta no está en esta página,</span>
                             <a href="#" class="btn btn-lg waves-effect waves-light">Contacta con nuestros gestores de cuentas</a>
                         </div>
-                        </div><!-- /.container -->
-                    </section>
+                        </div>
+                    </section> -->
                 </div>
             </t>
         </template>
