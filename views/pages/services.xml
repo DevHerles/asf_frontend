@@ -95,28 +95,30 @@
                               </div>              
                 
                               <div class="row">
-                                  <div class="col-md-3 col-sm-6 mb-30">
+                                  <div class="col-md-6 col-sm-6 mb-30">
                                       <div class="featured-item flat-border-box text-center">
                                           <div class="icon">
                                               <i class="material-icons brand-icon">&#xE85C;</i>
                                           </div>
                                           <div class="desc">
                                               <h2>Implementación</h2>
-                
-                                              <ul>
-                                                <li>Brand &amp; Digital Strategy</li>
-                                                <li>User Research: Focus Groups, Interviews</li>
-                                                <li>Personal Development</li>
-                                                <li>Content Strategy</li>
-                                                <li>Voice &amp; Tone</li>
-                                                <li>Website Audits</li>
-                                              </ul>
-                
+                                                <p>
+                                                    Comprender la competencia y mejorar las tecnologías actuales disponibles 
+                                                    es imprescindible. Es por eso que nuestro equipo construye un modelo de 
+                                                    negocios tomando en cuenta la competencia, y los recursos disponibles 
+                                                    actuales y los requisitos para construir una plataforma sostenible que 
+                                                    resuelva el problema de los institutos educativos.
+                                                </p>
+                                                <p>
+                                                    Los datos de Old Systems deben exportarse al nuevo sistema y nuestro equipo 
+                                                    garantiza que no se pierdan datos y que se mantenga la integridad de los 
+                                                    datos durante todo el proceso.
+                                                </p>
                                           </div>
                                       </div><!-- /.featured-item -->
-                                  </div><!-- /.col-md-3 -->
+                                  </div><!-- /.col-md-6 -->
                 
-                                  <div class="col-md-3 col-sm-6 mb-30">
+                                  <div class="col-md-6 col-sm-6 mb-30">
                                       <div class="featured-item flat-border-box text-center">
                                           <div class="icon">
                                               <i class="material-icons brand-icon">&#xE7FB;</i>
@@ -124,20 +126,23 @@
                                           <div class="desc">
                                               <h2>Consultoría</h2>
                 
-                                              <ul>
-                                                <li>Information Architecture</li>
-                                                <li>User Testing</li>
-                                                <li>Meeting Design:</li>
-                                                <li>Workshops &amp; Seminars</li>
-                                                <li>Wireframing</li>
-                                                <li>Visual Design</li>
-                                              </ul>
+                                                <p>
+                                                    El primer paso para obtener una ventaja en el mercado competitivo actual es 
+                                                    implementar la automatización de la mayor parte del proceso. Pero, sin una 
+                                                    consulta adecuada, incluso los mejores sistemas y situaciones pueden hacer 
+                                                    daño que bien.
+                                                </p>
+                                                <p>
+                                                    Para superar esto, OpenEduCat ofrece consultoría en el nivel granular, 
+                                                    entendiendo cómo la escuela / colegio puede beneficiarse de la solución y 
+                                                    personalizar cada bit de la plataforma, de acuerdo con los requisitos.
+                                                </p>
                 
                                           </div>
                                       </div><!-- /.featured-item -->
-                                  </div><!-- /.col-md-3 -->
+                                  </div><!-- /.col-md-6 -->
                 
-                                  <div class="col-md-3 col-sm-6 mb-30">
+                                  <div class="col-md-6 col-sm-6 mb-30">
                                       <div class="featured-item flat-border-box text-center">
                                           <div class="icon">
                                               <i class="material-icons brand-icon">&#xE53B;</i>
@@ -156,9 +161,9 @@
                 
                                           </div>
                                       </div><!-- /.featured-item -->
-                                  </div><!-- /.col-md-3 -->
+                                  </div><!-- /.col-md-6 -->
                 
-                                  <div class="col-md-3 col-sm-6 mb-30">
+                                  <div class="col-md-6 col-sm-6 mb-30">
                                       <div class="featured-item flat-border-box text-center">
                                           <div class="icon">
                                               <i class="material-icons brand-icon">&#xE8AB;</i>
@@ -177,7 +182,7 @@
                 
                                           </div>
                                       </div><!-- /.featured-item -->
-                                  </div><!-- /.col-md-3 -->
+                                  </div><!-- /.col-md-6 -->
                               </div><!-- /.row -->
                             </div><!-- /.container -->
                         </section>
