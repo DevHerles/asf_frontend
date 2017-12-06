@@ -7,11 +7,15 @@
             <t t-call="website.layout">                    
                 <div id="wrap">
                     <!--page title start-->
-                    <section class="page-title ptb-140">
+                    <section class="page-title ptb-140" id="features-nav-bar">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
                                     <h2 class="text-bold white-text">Características</h2>
+                                    <!-- <ol class="breadcrumb-features">
+                                        <li><a href="/">Inicio</a></li>
+                                        <li class="active">Características</li>
+                                    </ol> -->
                                     <ol class="breadcrumb">
                                         <li><a href="/">Inicio</a></li>
                                         <li class="active">Características</li>

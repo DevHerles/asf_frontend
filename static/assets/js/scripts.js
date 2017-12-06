@@ -35,18 +35,28 @@ Version: 1.5
                 if (w > 768) {
                     if ($(this).scrollTop() > 1) {
                         $('header').addClass("sticky");
+                        $('.search-btn').addClass("custom-top");
+                        $('#features-nav-bar').addClass("sticky-features-nav-bar");
+                        $('#features-nav-bar').addClass("ptb-40");
+                        $('.padding-top-70').addClass("padding-top-170");
                     }
                     else {
                         $('header').removeClass("sticky");
+                        $('.search-btn').removeClass("custom-top");
+                        $('#features-nav-bar').removeClass("sticky-features-nav-bar");
+                        $('#features-nav-bar').removeClass("ptb-40");
+                        $('.padding-top-70').removeClass("padding-top-170");
                     }
                 }
             } else {
                 if (w > 768) {
                     if ($(this).scrollTop() > navBottom.top + 100) {
                         $('header').addClass("sticky");
+                        $('.search-btn').addClass("custom-top");
                     }
                     else {
                         $('header').removeClass("sticky");
+                        $('.search-btn').removeClass("custom-top");
                     }
                 }
             }
