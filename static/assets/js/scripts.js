@@ -36,15 +36,15 @@ Version: 1.5
                     if ($(this).scrollTop() > 1) {
                         $('header').addClass("sticky");
                         $('.search-btn').addClass("custom-top");
-                        $('#features-nav-bar').addClass("sticky-features-nav-bar");
-                        $('#features-nav-bar').addClass("ptb-40");
+                        $('#wrap-nav-bar').addClass("sticky-wrap-nav-bar");
+                        $('#wrap-nav-bar').addClass("ptb-40");
                         $('.padding-top-70').addClass("padding-top-170");
                     }
                     else {
                         $('header').removeClass("sticky");
                         $('.search-btn').removeClass("custom-top");
-                        $('#features-nav-bar').removeClass("sticky-features-nav-bar");
-                        $('#features-nav-bar').removeClass("ptb-40");
+                        $('#wrap-nav-bar').removeClass("sticky-wrap-nav-bar");
+                        $('#wrap-nav-bar').removeClass("ptb-40");
                         $('.padding-top-70').removeClass("padding-top-170");
                     }
                 }

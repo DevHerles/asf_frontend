@@ -5,7 +5,7 @@
             <xpath expr="//div[@id='wrap']" position="replace">
                 <div id="wrap">
                     <!--page title start-->
-                    <section class="page-title ptb-140">
+                    <section class="page-title ptb-140 page-title-bg" id="wrap-nav-bar">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
