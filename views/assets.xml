@@ -192,7 +192,7 @@
                     });
                 </script>
 
-                <script>
+                <!-- <script>
                     var map;
                     function initMap() {
                         map = new google.maps.Map(document.getElementById('map'), {
@@ -203,7 +203,7 @@
                 </script>
                     
                 <script async="async" defer="defer" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4syMXeAKc_mu9pNFqSmtzkQHom4f5f4g&amp;callback=initMap"
-                    type="text/javascript"/>
+                    type="text/javascript"/> -->
                     
                 <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems! The following part can be removed on Server for On Demand Loading) -->
                 

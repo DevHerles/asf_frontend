@@ -34,7 +34,7 @@
                                     data-splitin="none" 
                                     data-splitout="none" 
                                     data-responsive_offset="on"
-                                    style="z-index: 5; color: #373a3d; white-space: nowrap;">Optimize Your Site
+                                    style="z-index: 5; color: #373a3d; white-space: nowrap;">Duplex ERP
                                 </div>
 
                                 <!-- LAYER NR. 2 -->
@@ -234,77 +234,83 @@
                         </div><!-- end revolution slider -->
                     </section><!-- end of slider wrapper -->
 
-                    <section class="section-padding">
+                    <section class="feature-presentation padding-top-110 padding-bottom-70 gray-bg">
                         <div class="container">
 
                         <div class="text-center mb-80">
-                            <h2 class="section-title text-uppercase">Características</h2>
-                            <!-- <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam nulla ac nisi rhoncus.</p> -->
+                            <h2 class="section-title text-bold">Características</h2>
+                            <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam nulla ac nisi rhoncus.</p>
                         </div>
 
-                        <div class="row no-gutter">
-                            <div class="col-md-3 col-sm-6">
-                                <div class="featured-box border-right text-center hover brand-hover">
-                                    <div class="featured-wrapper">
-                                    <div class="intro-header">
-                                        <i class="material-icons brand-icon">&#xE53B;</i>
-                                        <h2>Creative Artist</h2>
-                                    </div>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
 
-                                    <div class="content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis repellat quo vitae tempora.</p>
+                                <div class="featured-item feature-icon icon-hover icon-hover-brand right-icon mt-50 mb-80">
+                                    <div class="icon radius-4">
+                                        <i class="material-icons colored dark-icon">&#xE8D1;</i>
                                     </div>
-                                    </div><!-- /.featured-wrapper -->
-                                </div><!-- /.featured-box  -->
-                            </div><!-- /.col-md-3 -->
-
-                            <div class="col-md-3 col-sm-6">
-                                <div class="featured-box border-right text-center hover brand-hover">
-                                    <div class="featured-wrapper">
-                                    <div class="intro-header">
-                                        <i class="material-icons brand-icon">&#xE051;</i>
-                                        <h2>Web Design</h2>
+                                    <div class="desc">
+                                        <h2>Concrete Developments</h2>
+                                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime.</p>
                                     </div>
+                                </div>
 
-                                    <div class="content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis repellat quo vitae tempora.</p>
+                                <div class="featured-item feature-icon icon-hover icon-hover-brand right-icon mb-80">
+                                    <div class="icon radius-4">
+                                        <i class="material-icons colored dark-icon">&#xE1BD;</i>
                                     </div>
-                                    </div><!-- /.featured-wrapper -->
-                                </div><!-- /.featured-box  -->
-                            </div><!-- /.col-md-3 -->
-
-                            <div class="col-md-3 col-sm-6">
-                                <div class="featured-box border-right text-center hover brand-hover">
-                                    <div class="featured-wrapper">
-                                    <div class="intro-header">
-                                        <i class="material-icons brand-icon">&#xE323;</i>
-                                        <h2>App Design</h2>
+                                    <div class="desc">
+                                        <h2>Finance Assistance</h2>
+                                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime.</p>
                                     </div>
+                                </div>
 
-                                    <div class="content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis repellat quo vitae tempora.</p>
+                            </div><!-- /.col-md-4 -->
+
+                            <div class="col-md-4 hidden-sm hidden-xs">
+                                <img class="img-responsive" src="/duplex_fe/static/assets/img/seo/apple-iphone7plus.png" alt=""/>
+                            </div><!-- /.col-md-4 -->
+
+                            <div class="col-md-4 col-sm-6">
+
+                                <div class="featured-item feature-icon icon-hover icon-hover-brand mt-50 mb-80">
+                                    <div class="icon radius-4">
+                                        <i class="material-icons colored dark-icon">&#xE0AF;</i>
                                     </div>
-                                    </div><!-- /.featured-wrapper -->
-                                </div><!-- /.featured-box  -->
-                            </div><!-- /.col-md-3 -->                  
-
-                            <div class="col-md-3 col-sm-6">
-                                <div class="featured-box text-center hover brand-hover">
-                                    <div class="featured-wrapper">
-                                    <div class="intro-header">
-                                        <i class="material-icons brand-icon">&#xE0B9;</i>
-                                        <h2>Product Research</h2>
+                                    <div class="desc">
+                                        <h2>Cost Effective Solutions</h2>
+                                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime.</p>
                                     </div>
+                                </div>
 
-                                    <div class="content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis repellat quo vitae tempora.</p>
+                                <div class="featured-item feature-icon icon-hover icon-hover-brand mb-80">
+                                    <div class="icon radius-4">
+                                        <i class="material-icons colored dark-icon">&#xE84F;</i>
                                     </div>
-                                    </div><!-- /.featured-wrapper -->
-                                </div><!-- /.featured-box  -->
-                            </div><!-- /.col-md-3 -->
+                                    <div class="desc">
+                                        <h2>Quality Infrastructure</h2>
+                                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime.</p>
+                                    </div>
+                                </div>
 
+                            </div><!-- /.col-md-4 -->
                         </div><!-- /.row -->
-                        </div><!-- /.container -->
+
+                        <div class="text-center mb-0">
+                            <a href="/page/features" class="btn text-medium page-scroll mt-30 waves-effect waves-light">Vea todas las características</a>
+                        </div>
+                        </div>
+                    </section>
+
+                    <section class="paddding-bottom-110">
+                        <div class="construction-promo promo-box brand-bg">
+                            <div class="promo-info">
+                                <h2 class="text-extrabold font-25 no-margin white-text">¿Quieres ver el sistema en acción?</h2>
+                            </div>
+                            <div class="promo-btn">
+                                <a href="http://demo.duplex.pe/" class="btn btn-lg text-medium waves-effect waves-light">Pruebe ahora &#032;&#032;<i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
                     </section>
 
                     <section class="facts-two counter-section seo-banner-1 bg-fixed parallax-bg overlay dark-6"  data-stellar-background-ratio="0.5">
@@ -336,74 +342,7 @@
                             </div>
                         </div><!-- /.container -->
                     </section>
-
-                    <section class="process-section brand-bg">
-                        <div class="container-fluid">
-                            <div class="row no-gutter equal-height-row overflow-hidden">
-                            <div class="col-md-9 equal-height-column">
-
-                                <div class="process-wrapper">
-                                <div class="mb-80">
-                                    <h2 class="section-title white-text text-uppercase">The  following process</h2>
-                                    <p class="white-text">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam. Nulla ac nisi rhoncus, faucibus leo id, consequat mauris.</p>
-                                </div>
-
-                                    <div class="row">
-                                    <div class="col-sm-6 mb-40">
-                                        <div class="featured-item feature-icon">
-                                            <div class="icon">
-                                                <i class="material-icons white-text">&#xE90F;</i>
-                                            </div>
-                                            <div class="desc">
-                                                <h2 class="white-text">Plan y Discuss</h2>
-                                                <p class="white-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
-                                            </div>
-                                        </div><!-- /.featured-item -->
-                                    </div><!-- /.col-sm-6 -->
-
-                                    <div class="col-sm-6 mb-40">
-                                        <div class="featured-item feature-icon">
-                                            <div class="icon">
-                                                <i class="material-icons white-text">&#xE8B8;</i>
-                                            </div>
-                                            <div class="desc">
-                                                <h2 class="white-text">Build Concept</h2>
-                                                <p class="white-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
-                                            </div>
-                                        </div><!-- /.featured-item -->
-                                    </div><!-- /.col-sm-6 -->
-                                    <div class="col-sm-6">
-                                        <div class="featured-item feature-icon">
-                                            <div class="icon">
-                                                <i class="material-icons white-text">&#xE0B7;</i>
-                                            </div>
-                                            <div class="desc">
-                                                <h2 class="white-text">Develop Usability Testing</h2>
-                                                <p class="white-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
-                                            </div>
-                                        </div><!-- /.featured-item -->
-                                    </div><!-- /.col-sm-6 -->
-                                    <div class="col-sm-6">
-                                        <div class="featured-item feature-icon">
-                                            <div class="icon">
-                                                <i class="material-icons white-text">&#xE323;</i>
-                                            </div>
-                                            <div class="desc">
-                                                <h2 class="white-text">Project Delevering</h2>
-                                                <p class="white-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
-                                            </div>
-                                        </div><!-- /.featured-item -->
-                                    </div><!-- /.col-sm-6 -->
-                                    </div><!-- /.row -->
-                                </div><!-- /.process-wrapper -->
-                            </div>
-                            <div class="col-md-3 equal-height-column process-bg-wrapper">
-                                <img src="/duplex_fe/static/assets/img/creative/process-bg.jpg" alt="image"/>
-                            </div>
-                            </div>
-                        </div>
-                    </section>
-
+                    
                 </div>
             </xpath>
         </template> 
