@@ -12,10 +12,6 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <h2 class="text-bold white-text">Características</h2>
-                                    <!-- <ol class="breadcrumb-features">
-                                        <li><a href="/">Inicio</a></li>
-                                        <li class="active">Características</li>
-                                    </ol> -->
                                     <ol class="breadcrumb">
                                         <li><a href="/">Inicio</a></li>
                                         <li class="active">Características</li>
@@ -75,7 +71,10 @@
 
                         <div class="text-center mb-80 wow fadeInUp asf-header">
                             <h2 class="section-title text-uppercase">Condominio</h2>
-                            <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam nulla ac nisi rhoncus.</p>
+                            <p class="section-sub">
+                                Simplifique todos los procesos de emisión de cuotas de mantenimiento con un único paso, envíe recordatorios
+                                de pago fácilmente mediante correo electrónico y más... 
+                            </p>
                         </div>
 
                         <div class="row equal-height-row">
@@ -159,7 +158,9 @@
                         <div class="container">
                             <div class="text-center mb-80 wow fadeInUp asf-header">
                                 <h2 class="section-title text-uppercase">Blog</h2>
-                                <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam nulla ac nisi rhoncus.</p>
+                                <p class="section-sub">
+                                    Publique información importante y interactue con sus vecinos. 
+                                </p>
                             </div>
                             <div class="row equal-height-row">
                                 <div class="col-md-4 mb-30">
@@ -243,7 +244,7 @@
                             <div class="text-center mb-80 wow fadeInUp asf-header">
                                 <h2 class="section-title text-uppercase">Compras</h2>
                                 <p class="section-sub">
-                                    Automatice las Solicitudes de Presupuesto y los Pedidos de Compra basándose en 
+                                    Automatice las solicitudes de presupuesto y los pedidos de compra basándose en 
                                     existencias mínimas u órdenes de venta, y lleve el registro de los envíos entrantes.
                                 </p>
                             </div>

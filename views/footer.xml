@@ -11,7 +11,7 @@
                     <i class="material-icons">&#xE316;</i>
                   </a>
 
-                  <ul class="social-link tt-animate ltr mt-20">
+                  <!-- <ul class="social-link tt-animate ltr mt-20">
                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
@@ -21,17 +21,32 @@
                     <li><a href="#"><i class="fa fa-rss"></i></a></li>
                   </ul>
 
-                  <hr class="mt-15"/>
+                  <hr class="mt-15"/> -->
 
                   <div class="row">
                     <div class="col-md-12">
                           <div class="footer-logo">
-                            <img src="/duplex_fe/static/assets/img/logo-white.png" alt=""/>
+                            <img src="/duplex_fe/static/assets/img/aranda-logo-full-white.png" alt="ArandaSF"/>
                           </div>
 
                           <span class="copy-text">Copyright (c) 2017 <a href="/page/contactus">Duplex ERP</a> | All Rights Reserved |  Designed By <a href="http://www.arandasf.com">Aranda Software Factory</a></span>
                           <div class="footer-intro">
-                            <p>Penatibus tristique velit vestibulum adipiscing habitant aenean feugiat at condimentum aptent odio orci vulputate hac mollis a.Vestibulum adipiscing gravida justo a ac euismod vitae.</p>
+                            <!-- <p>
+                                La información personal que proporcione a Duplex ERP a través del Servicio se rige por la Política de 
+                                privacidad de Duplex ERP. Su elección de utilizar el Servicio indica su aceptación de los términos de 
+                                la Política de privacidad de Duplex ERP.
+                            </p> -->
+                            <p>
+                                Usted es responsable de mantener la confidencialidad de su nombre de usuario, contraseña y otra 
+                                información confidencial. Usted es responsable de todas las actividades que ocurran en su cuenta de 
+                                usuario y acepta informarnos inmediatamente sobre cualquier uso no autorizado de su cuenta de usuario 
+                                por correo electrónico a <a href="mailto:cuentas@duplex.pe">cuentas@duplex.pe</a> o llamándonos a cualquiera de los números que figuran en 
+                                <a href="/page/contactus">http://www.duplex.pe/contactus</a>.
+                            </p>
+                            <p>
+                                No somos responsables de ninguna pérdida o daño que sufra usted o cualquier tercero como resultado de 
+                                un acceso y / o uso no autorizado de su cuenta de usuario, o de otro modo.
+                            </p>
                           </div>
                     </div><!-- /.col-md-12 -->
                   </div><!-- /.row -->

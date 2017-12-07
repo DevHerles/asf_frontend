@@ -20,7 +20,7 @@
                     </section>
                     <!--page title end-->
 
-                    <section id="contact" class="section-padding contact-form-wrapper">
+                    <section id="contact" class="section-padding contact-form-wrapper bottom-20">
                         
                         <div class="container">
                         <div class="row">
@@ -78,22 +78,20 @@
                                     <div class="address">
                                         Jr. León Velarde 631<br></br>
                                         Lince, Perú.
-
                                         <hr></hr>
-
-                                        <!-- <p>Hoffman Parkway, P.O Box 154 Mountain View.<br>
-                                        United States of America.</p> -->
                                     </div>
 
                                     <i class="material-icons brand-color">&#xE61C;</i>
                                     <div class="phone">
                                         Cellphone: (123) 456-7890
+                                        <hr></hr>
                                     </div>
 
                                     <i class="material-icons brand-color">&#xE0B7;</i>
                                     <div class="mail">
-                                    <p><a href="mailto:#">contacto@arandasf.com</a><br></br>
-                                    <a href="#">www.arandasf.com</a></p>
+                                        <p><a href="mailto:info@duplex.pe">info@duplex.pe</a><br></br>
+                                        <a href="/">http://www.duplex.pe</a></p>
+                                        <hr></hr>
                                     </div>
                                 </address>
                             </div><!-- /.col-md-4 -->
@@ -104,6 +102,29 @@
                     <!-- map-section -->
                     <div id="map" class="height-350"></div>
                     <!-- /.map-section -->
+
+                    <script>
+                        var map;
+                        function initMap() {
+                            var duplex = {lat: -12.0835347, lng: -77.0433529};
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                                scaleControl: true,
+                                center: duplex,
+                                zoom: 16
+                            });
+
+                            var infowindow = new google.maps.InfoWindow;
+                            infowindow.setContent('<b>Duplex ERP</b>');
+
+                            var marker = new google.maps.Marker({map: map, position: duplex});
+                            marker.addListener('click', function() {
+                            infowindow.open(map, marker);
+                            });
+                        }
+                    </script>
+                        
+                    <script async="async" defer="defer" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4syMXeAKc_mu9pNFqSmtzkQHom4f5f4g&amp;callback=initMap"
+                        type="text/javascript"/>
 
                 </div>
             </xpath>
