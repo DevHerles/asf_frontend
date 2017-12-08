@@ -233,13 +233,15 @@
                         </ul>             
                         </div><!-- end revolution slider -->
                     </section><!-- end of slider wrapper -->
-
+l
                     <section class="feature-presentation padding-top-110 padding-bottom-70 gray-bg">
                         <div class="container">
 
                         <div class="text-center mb-80">
                             <h2 class="section-title text-bold">Características</h2>
-                            <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam nulla ac nisi rhoncus.</p>
+                            <p class="section-sub">
+                                Duplex ERP cuenta con 10 módulos disponibles para resolver todas sus necesidades.
+                            </p>
                         </div>
 
                         <div class="row">
@@ -250,8 +252,11 @@
                                         <i class="material-icons colored dark-icon">&#xE8D1;</i>
                                     </div>
                                     <div class="desc">
-                                        <h2>Concrete Developments</h2>
-                                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime.</p>
+                                        <h2>Condominio</h2>
+                                        <p>
+                                            Simplifique todos los procesos de emisión de cuotas de mantenimiento con un único paso, 
+                                            envíe recordatorios de pago fácilmente mediante correo electrónico y más...
+                                        </p>
                                     </div>
                                 </div>
 
@@ -260,8 +265,11 @@
                                         <i class="material-icons colored dark-icon">&#xE1BD;</i>
                                     </div>
                                     <div class="desc">
-                                        <h2>Finance Assistance</h2>
-                                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime.</p>
+                                        <h2>Compras</h2>
+                                        <p>
+                                            Automatice las solicitudes de presupuesto y los pedidos de compra basándose en existencias 
+                                            mínimas u órdenes de venta, y lleve el registro de los envíos entrantes.
+                                        </p>
                                     </div>
                                 </div>
 
@@ -278,8 +286,11 @@
                                         <i class="material-icons colored dark-icon">&#xE0AF;</i>
                                     </div>
                                     <div class="desc">
-                                        <h2>Cost Effective Solutions</h2>
-                                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime.</p>
+                                        <h2>Ventas</h2>
+                                        <p>
+                                            Actualice automáticamente sus niveles de existencias y prevea cantidades en base a las ofertas, 
+                                            presupuestos y órdenes de venta.<br/><br/>
+                                        </p>
                                     </div>
                                 </div>
 
@@ -288,8 +299,11 @@
                                         <i class="material-icons colored dark-icon">&#xE84F;</i>
                                     </div>
                                     <div class="desc">
-                                        <h2>Quality Infrastructure</h2>
-                                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime.</p>
+                                        <h2>Contabilidad</h2>
+                                        <p>
+                                            Sáltese la introducción de datos. El Inventario está plenamente integrado con la Contabilidad, 
+                                            de modo que los movimientos de existencias se plasman en sus libros en tiempo real.
+                                        </p>
                                     </div>
                                 </div>
 
