@@ -34,7 +34,8 @@
                                     data-splitin="none" 
                                     data-splitout="none" 
                                     data-responsive_offset="on"
-                                    style="z-index: 5; color: #373a3d; white-space: nowrap;">Duplex ERP
+                                    style="z-index: 5; color: #373a3d; white-space: nowrap;">
+                                    Podemos darte <br></br> una mano
                                 </div>
 
                                 <!-- LAYER NR. 2 -->
@@ -52,7 +53,8 @@
                                     data-splitin="none" 
                                     data-splitout="none" 
                                     data-responsive_offset="on"
-                                    style="z-index: 6; color: #666; white-space: nowrap;">Materialize is an interactive agency. Which develops websites <br></br> and premium mobile applications.
+                                    style="z-index: 6; color: #666; white-space: nowrap;">
+                                    <h2>Duplex ERP te ayuda a mejorar las relaciones con los vecinos.</h2>
                                 </div>
 
                                 <!-- LAYER NR. 3 -->
@@ -73,7 +75,9 @@
                                     data-splitout="none" 
                                     data-responsive_offset="on"
                                     style="z-index: 7; white-space: nowrap;">
-                                    <a href="#" class="btn btn-lg  waves-effect waves-light">Explore More</a>
+                                    <a href="/page/contactus" class="btn waves-effect waves-light">Registrarse para una demostración</a>
+                                    <a href="http://demo.duplex.pe" target="_blank" class="waves-effect waves-light btn green">Probar ahora</a>
+                                    <!-- <a href="#" class="waves-effect waves-orange btn-flat orange-text">Probar ahora</a> -->
                                 </div>
 
                                 <!-- LAYER NR. 4 -->
@@ -170,7 +174,7 @@
                                     data-splitin="none" 
                                     data-splitout="none" 
                                     data-responsive_offset="on"
-                                    style="z-index: 5; color: #373a3d; white-space: nowrap;">Gorw Your Business
+                                    style="z-index: 5; color: #373a3d; white-space: nowrap;">Haga crecer<br></br>su negocio
                                 </div>
 
                                 <!-- LAYER NR. 2 -->
@@ -188,7 +192,9 @@
                                     data-splitin="none" 
                                     data-splitout="none" 
                                     data-responsive_offset="on"
-                                    style="z-index: 6; color: #666; white-space: nowrap;">Materialize is an interactive agency. Which develops websites <br></br> and premium mobile applications.
+                                    style="z-index: 6; color: #666; white-space: nowrap;">
+                                    <h2>Eres una empresa administradora?, Podemos ser su mejor <br></br> aliado frente a sus competidores.</h2>
+                                    <!-- <h2><p>Eres una empresa administradora?, Podemos ser su mejor</p><p>aliado frente a sus competidores.</p></h2> -->
                                 </div>
 
                                 <!-- LAYER NR. 3 -->
@@ -209,7 +215,7 @@
                                     data-splitout="none" 
                                     data-responsive_offset="on"
                                     style="z-index: 7; white-space: nowrap;">
-                                    <a href="#" class="btn btn-lg  waves-effect waves-light">Explore More</a>
+                                    <a href="/page/contactus" class="btn btn-lg  waves-effect waves-light">Contáctenos</a>
                                 </div>
 
                                 <!-- LAYER NR. 4 -->
@@ -240,7 +246,7 @@ l
                         <div class="text-center mb-80">
                             <h2 class="section-title text-bold">Características</h2>
                             <p class="section-sub">
-                                Duplex ERP cuenta con 10 módulos disponibles para resolver todas sus necesidades.
+                                Duplex ERP cuenta con 10 módulos disponibles para cubrir todas sus necesidades.
                             </p>
                         </div>
 
@@ -322,7 +328,7 @@ l
                                 <h2 class="text-extrabold font-25 no-margin white-text">¿Quieres ver el sistema en acción?</h2>
                             </div>
                             <div class="promo-btn">
-                                <a href="http://demo.duplex.pe/" class="btn btn-lg text-medium waves-effect waves-light">Pruebe ahora &#032;&#032;<i class="fa fa-angle-right"></i></a>
+                                <a href="http://demo.duplex.pe/" target="_blank" class="btn btn-lg text-medium waves-effect waves-light">Pruebe ahora &#032;&#032;<i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
                     </section>
@@ -330,29 +336,29 @@ l
                     <section class="facts-two counter-section seo-banner-1 bg-fixed parallax-bg overlay dark-6"  data-stellar-background-ratio="0.5">
                         <div class="container">
                             <div class="row text-center">
-                                <div class="col-sm-3 counter-wrap">
+                                <div class="col-sm-4 counter-wrap">
                                     <i class="material-icons brand-color">&#xE90F;</i>
                                     <span class="timer white-text">545</span>
-                                    <span class="count-description white-text">Project run</span>
-                                </div> <!-- /.col-sm-3 -->
+                                    <span class="count-description white-text">Administradores</span>
+                                </div> <!-- /.col-sm-4 -->
 
-                                <div class="col-sm-3 counter-wrap">
+                                <div class="col-sm-4 counter-wrap">
                                     <i class="material-icons brand-color">&#xE863;</i>
                                     <span class="timer white-text">535</span>
-                                    <span class="count-description white-text">Ideas</span>
-                                </div><!-- /.col-sm-3 -->
+                                    <span class="count-description white-text">Condominios</span>
+                                </div><!-- /.col-sm-4 -->
 
-                                <div class="col-sm-3 counter-wrap">
+                                <div class="col-sm-4 counter-wrap">
                                     <i class="material-icons brand-color">&#xE8F8;</i>
                                     <span class="timer white-text">1544</span>
-                                    <span class="count-description white-text">Experiments</span>
-                                </div><!-- /.col-sm-3 -->
+                                    <span class="count-description white-text">Propietarios</span>
+                                </div><!-- /.col-sm-4 -->
 
-                                <div class="col-sm-3 counter-wrap">
+                                <!-- <div class="col-sm-3 counter-wrap">
                                     <i class="material-icons brand-color">&#xE87E;</i>
                                     <span class="timer white-text">111</span>
                                     <span class="count-description white-text">success</span>
-                                </div><!-- /.col-sm-3 -->
+                                </div> -->
                             </div>
                         </div><!-- /.container -->
                     </section>
