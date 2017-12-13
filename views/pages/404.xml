@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <template id="404_inherit" inherit_id="website.404" name="404"  active="True" customize_show="True">
+            <xpath expr="//div[@id='wrap']" position="replace">
+                <!-- <t t-call="website.layout"> -->
+                    <div id="wrap">
+                        <!-- <section class="page-title ptb-140">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 class="text-bold white-text">Iniciar sesión</h2>
+                                        <ol class="breadcrumb">
+                                            <li><a href="/">Inicio</a></li>
+                                            <li class="active">Login</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </section> -->
+
+                        <section class="error-wrapper">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-5 center">
+                                        <image src="/duplex_fe/static/assets/img/seo/robot.png" alt="Error"/>
+                                    </div>
+                                    
+                                    <div class="col-sm-7">
+                                        <div class="error-info">
+                                            <h1 class="mb-30">404</h1>
+                                            <span class="error-sub">OOPS! PAGE NOT FOUND</span>
+
+                                            <p>Sorry, but we can’t seem to find the page you are looking for.</p>
+                                            <a class="btn btn-lg waves-effect waves-light" href="/">Take Me Home</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                <!-- </t> -->
+            </xpath>
+        </template>
+    </data>
+</odoo>

@@ -38,6 +38,7 @@
         'views/pages/pricing.xml',
         # 'views/pages/services.xml',
         'views/pages/login.xml',
+        'views/pages/404.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
