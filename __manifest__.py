@@ -39,6 +39,7 @@
         # 'views/pages/services.xml',
         'views/pages/login.xml',
         'views/pages/404.xml',
+        'views/pages/dashboard.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

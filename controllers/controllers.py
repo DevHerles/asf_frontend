@@ -15,6 +15,10 @@ class CondominiumFrontend(http.Controller):
     #         'teachers': Teachers.search([]),
     #     })
 
+    @http.route('/page/dashboard', auth='user', website=True)
+    def list(self, **kw):
+        return http.request.render('website.dashboard')
+
     @http.route('/page/features', auth='public', website=True)
     def list(self, **kw):
         return http.request.render('website.features')
