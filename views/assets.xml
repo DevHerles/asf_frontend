@@ -55,6 +55,9 @@
                 <script src="/duplex_fe/static/assets/owl.carousel/owl.carousel.min.js"></script>
                 <script src="/duplex_fe/static/assets/flexSlider/jquery.flexslider-min.js"></script>
                 <!-- <script src="https://maps.googleapis.com/maps/api/js"></script> -->
+                <script src="/duplex_fe/static/assets/js/chart.min.js"></script>
+                <script src="/duplex_fe/static/assets/js/jquery.sparkline.min.js"></script>
+                <script src="/duplex_fe/static/assets/js/dashboard-analytics.js"></script>
                 <script src="/duplex_fe/static/assets/js/scripts.js"></script>
 
                 <!-- <script type="text/javascript">

@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from odoo import http
+from odoo.http import request
 
 import smtplib
 from email.mime.multipart import MIMEMultipart
@@ -19,6 +20,22 @@ class CondominiumFrontend(http.Controller):
     def list(self, **kw):
         return http.request.render('website.dashboard')
 
+    @http.route('/website/fetch_dashboard_data', type="json", auth='user')
+    def fetch_dashboard_data(self, date_from, date_to):
+
+        params = request.env['ir.config_parameter']
+        ga_client_id = params.sudo().get_param('google_management_client_id', default='')
+
+        return {
+            'groups': {'system': request.env['res.users'].has_group('base.group_system')},
+            'currency': request.env.user.company_id.currency_id.id,
+            'dashboards': {
+                'visits': {
+                    'ga_client_id': ga_client_id,
+                }
+            }
+        }
+        
     @http.route('/page/features', auth='public', website=True)
     def list(self, **kw):
         return http.request.render('website.features')
