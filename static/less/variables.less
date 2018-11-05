@@ -1,0 +1,189 @@
+/* Copyright 2016 LasLabs Inc.
+ * License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
+
+// App Drawer / Icons
+@app-drawer-icon-size:      6em;
+@app-drawer-icon-margin:    1em;
+@app-drawer-width:          80%;
+@app-drawer-title-height:   54px;
+
+// Navbar
+@navbar-height: 46px;
+@app-drawer-navbar-height:  @navbar-height / 2;
+@app-drawer-navbar-padding-vertical: @navbar-padding-vertical / 2;
+@app-drawer-padding-horizontal: @navbar-padding-horizontal / 2;
+
+// Drawer Toggle
+@drawer-toggle-height: @navbar-height;
+@drawer-toggle-width: @navbar-height;
+
+// ASF Theme
+@blue:                          #03a9f4; //#37cfdc;
+@sea:                           #379392;
+@violet:                        #a3498b; //#9055a2;
+@green:                         #429244;
+@red:                           #ff3f3f;
+@pink:                          #db6574;
+@orange:                        #fac037;
+@white:                         #FFFFFF;
+@cyan:                          #5e6870;
+@black:                         #000000;
+
+@primary-color:                 @blue;
+@secondary-color:               @orange !important;
+@tertiary-color:                @white;
+@quaternary-color:              @sea;
+
+@theme-0:                       #0b0c21;
+@theme-1:                       #272c30;
+@theme-2:                       #2d3035;
+
+@topbar-color:                  @theme-0;
+@body-color:                    #88939C; //lighten(@panel-background-color,65%);
+@body-secondary-color:          lighten(@panel-background-color,4%);
+@link-active-color:             @primary-color;
+@link-hover-color:              @link-active-color;
+@body-background-color:         darken(@panel-background-color,5%);
+
+@title-color:                   lighten(@panel-background-color,60%);
+@panel-background-color:        lighten(@topbar-color, 3%) !important;
+@tab-background-color:          @panel-background-color;
+@tab-content-background-color:  lighten(@topbar-color, 0.5%);
+@form-input-hover-color:        @body-secondary-color;
+
+@border-line-color:             lighten(@panel-background-color,5%);
+@active-background-color:       @border-line-color;
+@active-background-color-color: @active-background-color;
+@active-a-color:                lighten(@primary-color,60%);
+@disabled-color:                darken(@panel-background-color,12%);
+
+
+@field-color:                       lighten(@panel-background-color,55%);
+@table-td-color:                    inherit; //lighten(@panel-background-color,28%); //#8a8d93;
+@table-tr-background-color-color:               darken(@panel-background-color,3%);
+@form-sheet-background:         @body-background-color;
+@form-input-color:              @field-color;
+@searchview-input-color:        @title-color;
+@search-options-hover-color:    @topbar-color;
+@button-hover-color:            @title-color;
+@primary-color-dark-20:         darken(@primary-color, 80%);
+@primary-color-dark-10:         darken(@primary-color, 30%);
+@navbar-a-color:                @title-color;
+@menu-a-color:                  @title-color;
+@oe_highlight-color:            @body-background-color;
+
+@menu-item-color:                                       @title-color;
+@menu-item-active-color:                                @secondary-color;
+@menu-item-active-hover-color:                          @menu-item-active-color;
+@menu-item-hover-color:                                 @black;
+@menu-item-left-border-color:                           @secondary-color;
+
+@dropdown-menu-item-color:                              @menu-item-color;
+@dropdown-menu-item-background-color:                   @topbar-color;
+@dropdown-menu-item-background-color-color:             @topbar-color;
+@dropdown-menu-item-active-background-color-color:      @dropdown-menu-item-background-color-color;
+@dropdown-menu-item-hover-color:                        @menu-item-hover-color;
+@dropdown-menu-item-background-hover-color:             @primary-color;
+@dropdown-menu-item-active-color:                       @menu-item-active-color;
+@dropdown-menu-item-active-hover-color:                 @menu-item-hover-color;
+@dropdown-menu-header-item-color:                       @secondary-color;
+@dropdown-menu-header-item-background-color:            darken(@primary-color, 10%);
+
+@navbar-inverse-background:                             @topbar-color;
+@navbar-nav-active-color:                               @body-background-color;
+@o_sub_menu:                                            @topbar-color;
+@o_main_backround:                                      transparent;
+@view_manager_content:                                  transparent; //@body-background-color; //@topbar-color;
+@pivot-table-background-color-color:                    transparent;
+
+@nav-pills-active-color:                                @primary-color;
+@nav-pills-active-background-color:                     @active-background-color;
+@breadcrumb-active-color:                               @title-color;
+@breadcrumb-font-size:                                  inherit;
+
+@modal-header-background:                               @panel-background-color;
+@modal-title-color:                                     @primary-color;
+@modal-body-background:                                 @body-background-color;// @active-background-color;
+@modal-body-color:                                      @body-color;
+@modal-footer-background:                               @panel-background-color;
+@modal-footer-color:                                    @body-color;
+@modal-error-detail-color:                              @orange;
+
+@graph_svg_container:                                   @panel-background-color;
+
+@pivot-table-th-background-color-color:                 @panel-background-color;
+@pivot-table-th-opened-background-color-color:          @panel-background-color;
+@pivot-table-th-closed-background-color-color:          @panel-background-color;
+@pivot-table-th-measure-background-color-color:         @panel-background-color;
+
+@input-background-color:                                @body-background-color; //transparent;
+@input-color:                                           @body-color;
+@transition:                                            all 0.3s ease-out;
+@input-transition:                                      @transition;
+@form-required-background:                              @border-line-color;         
+@select-background-color:                               @panel-background-color;
+
+@tooltip-inner-background-color-color:                  @panel-background-color;
+@tooltip-inner-color:                                   @primary-color;
+@tooltip-string-background-color:                       @panel-background-color;
+@tooltip-string-color:                                  @title-color;
+@box-shadow:                                            0 0 0 0.2rem @primary-color;
+
+@btn-color:                                             @tertiary-color;
+@btn-background-color:                                  rgba(36, 41, 44, 0.5);
+@btn-border-color:                                      @btn-background-color;
+@btn-primary-color:                                     #121521;
+@btn-active-color:                                      @secondary-color;
+@btn-active-hover-color:                                lighten(@primary-color,0.1);
+@btn-icon-active-color:                                 @btn-active-color;
+@btn-default-active-background-color:                   transparent;
+@btn-active-background-color:                           transparent;
+@oe_stat-button-hover-background-color:                 @menu-background-color-hover;
+@btn-default-background-color-color:                    @border-line-color;
+@btn-default-disabled-background-color-color:           @border-line-color;
+@btn-default-disabled-border-color:                     @body-background-color;
+@btn-txt-background-color:                              @quaternary-color;
+@btn-txt-color:                                         @topbar-color;
+
+@header-border-color:                                   none;
+@header-border-bottom-color:                            @border-line-color;
+
+@searchview-selection-focus:                            @link-active-color;
+
+@calendar-widget-background-color-color:                transparent;
+@calendar-sidebar-widget-header-background-color-color: @panel-background-color;
+@calendar-sidebar-widget-content-background-color:      transparent;
+@calendar-active-a-color:                               @body-background-color;
+@calendar-filter-background-color:                      transparent;
+
+@menu-background-color-hover:                           @active-background-color;
+@secondary-menu-section-active-background-color:        @active-background-color;
+@secondary-submenu-active-hover-background-color-color: @active-background-color;
+@secondary-submenu-not-active-hover-border-color:       @active-background-color;
+
+@navigation-menu-a-color:                               rgba(255,255,255,.7);
+
+@table-head-background-color:                           darken(@topbar-color, 3%);
+@table-head-color:                                      @secondary-color;
+@table-tbody-td-border-color:                           lighten(@topbar-color, 5%);
+@table-td-background-color:                             darken(@topbar-color, 5%);
+@table-tr-hover-background-color:                       darken(@topbar-color, 3%);
+
+@breadcrumbs-background-color:                          darken(@border-line-color, 4%);
+@breadcrumbs-active-background-color:                   darken(@border-line-color, 8%);
+
+@view-nocontent-color:                                  @body-color;
+@view-nocontent-create-color:                           @primary-color;
+
+@dialog-warning-color:                                  @orange;
+
+@kanban-record-hover-border-color:                      lighten(@border-line-color, 20%);
+@kanban-record-hover-background-color:                  @table-tr-hover-background-color;
+@kanban-record-hover-color:                             @secondary-color;
+@kanban-record-background-color:                        @table-head-background-color;
+@kanban-quick-create-background-color:                  @kanban-record-background-color;
+@kanban-color-0-background-color:                       @kanban-record-background-color;
+
+@autocomplete-menu-item-color:                          @white;
+@autocomplete-menu-item-hover-color:                    @white;
+@autocomplete-menu-item-hover-background-color:         @active-background-color;

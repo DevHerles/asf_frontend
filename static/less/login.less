@@ -1,0 +1,163 @@
+
+
+// 
+// acoount-pages.scss
+//
+
+.home-wrapper {
+  margin: 10% 0;
+}
+
+.bg-account-pages {
+  background-image: url("/duplex_fe/static/assets/img/bg-pattern.png");
+  background-size: cover;
+  padding-bottom: 0;
+  min-height: 100px;
+}
+
+.wrapper-page {
+  display: table;
+  height: 100vh;
+  width: 100%;
+}
+
+.account-pages {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.account-box {
+  position: relative;
+  max-width: 460px;
+  margin: 20px auto;
+  border-radius: 5px;
+  background: #343b4a;
+
+  .account-content {
+    padding: 30px;
+  }
+
+  .account-btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+}
+
+.account-logo-box {
+  padding: 30px 30px 0 30px;
+}
+
+.text-error {
+  font-size: 84px;
+  font-weight: 700;
+  line-height: 90px;
+}
+
+
+.checkmark {
+  width: 100px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+  animation: dash 2s ease-in-out;
+  -webkit-animation: dash 2s ease-in-out;
+}
+
+.spin {
+  animation: spin 2s;
+  -webkit-animation: spin 2s;
+  transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes dash {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes text {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes text {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1;
+  }
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #3f4759;
+  background-clip: padding-box;
+  border: 2px solid #4a5368;
+  border-radius: 0.25rem;
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out; }
+
+  .gray-bg {
+	background-image: url('/duplex_fe/static/assets/img/bg-pattern.png');
+    background-color: #080919 !important;
+    background-size: cover;
+  }
+
+  label {
+	font-size: inherit;
+  }
+
+  .email-input .password-input {
+	padding: .375rem .75rem;
+	color: #fff;
+    background-color: #3f4759;
+    border: 2px solid #4a5368;
+    border-radius: .25rem;
+  }
