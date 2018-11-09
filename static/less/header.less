@@ -83,7 +83,7 @@ Top Bar
 /* ----------------------------------------------------------------
 Header
 -----------------------------------------------------------------*/
-.dark-header.header-bottom-border {
+.header-theme.header-bottom-border {
     border-bottom: 1px solid rgba(255,255,255,.2);
     height: 99px;
 }
@@ -94,7 +94,7 @@ Header
 
 }
 
-.sticky .dark-header.header-bottom-border,
+.sticky .header-theme.header-bottom-border,
 .sticky .light-header.header-bottom-border {
     border: none;
     height: auto;
@@ -154,7 +154,7 @@ Header
 
 
 /* #header.transparent-header .light-header,
-#header.transparent-header .dark-header,
+#header.transparent-header .header-theme,
 #header.transparent-header {
     background: transparent !important;
     z-index: 1050;
@@ -172,12 +172,12 @@ Header
     background: #21232f !important;
 }
 
-.tt-nav .dark-header,
-.tt-nav.sticky .dark-header,
-#header.transparent-header.sticky .dark-header,
-.dark-nav,
+.tt-nav .header-theme,
+.tt-nav.sticky .header-theme,
+#header.transparent-header.sticky .header-theme,
+.theme-nav,
 .tt-nav.sticky .semi-transparent {
-    background: rgba(10,10,10, 1) !important;
+    background: @header-theme !important;
 }
 
 
@@ -325,8 +325,8 @@ header.sticky .menuzord-menu>li>a,
 
 .menuzord-menu>li>a,
 .menuzord-menu>li>a>i,
-.dark.menuzord-menu>li>a {
-    color: #202020;
+.theme.menuzord-menu>li>a {
+    color: @menuzord-menu-li-a; 
 }
 
 .light.menuzord-menu>li>a,
@@ -969,7 +969,7 @@ Responsive Menu
         background: #21232f !important;
     }
 
-    #header.transparent-header .dark-header,
+    #header.transparent-header .header-theme,
     #header.transparent-header .semi-transparent  {
         background: rgba(10, 10, 10, 1) !important;
     }
@@ -994,8 +994,8 @@ Responsive Menu
 
     .light.menuzord-menu > li > a, 
     .light.menuzord-menu > li > a > i, 
-    .tt-nav .dark-header .menuzord-menu > li > a, 
-    .tt-nav .dark-header .menuzord-menu > li > a > i {
+    .tt-nav .header-theme .menuzord-menu > li > a, 
+    .tt-nav .header-theme .menuzord-menu > li > a > i {
         color: #333;
     }
 
@@ -1003,7 +1003,7 @@ Responsive Menu
         line-height: 20px;
     }
 
-    .dark-header.header-bottom-border,
+    .header-theme.header-bottom-border,
     .light-header.header-bottom-border {
         height: auto;
         border: none;
@@ -1104,24 +1104,18 @@ Responsive Menu
 Alter logo visiblity
 -----------------------------------------------*/
 @media screen and (min-width: 768px) {
-    .transparent-header .logo-dark {
+    .transparent-header .logo-theme {
         display: none;
     }    
 
-    .transparent-header.sticky .logo-dark {
+    .transparent-header.sticky .logo-theme {
         display: inline;
     }
 
-    .transparent-header.sticky .logo-light {
-        display: none;
-    }
 }
 
 @media screen and (max-width: 768px) {
-    .transparent-header .logo-dark {
+    .transparent-header .logo-theme {
         display: inline;
-    }
-    .transparent-header .logo-light {
-        display: none;
     }
 }

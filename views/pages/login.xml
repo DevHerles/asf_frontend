@@ -5,13 +5,13 @@
             <xpath expr="t" position="replace">
                 <t t-call="website.layout">
                     <div id="wrap">
-                        <section class="section-padding gray-bg">
+                        <section class="section-padding theme-bg">
                             <div class="container account-box">
 								<!-- Logo box-->
 								<div class="account-logo-box">
 									<h2 class="text-uppercase text-center">
 										<a href="index.html" class="text-success">
-											<span><img src="/duplex_fe/static/assets/img/logo_light.png" alt="" height="28"/></span>
+											<span><img src="/duplex_fe/static/assets/img/aranda-logo-full-white.png" alt="" height="28"/></span>
 										</a>
 									</h2>
 								</div>
@@ -46,7 +46,7 @@
                             </div>
                         </section>
                         
-                        <!-- <section class="section-padding gray-bg">
+                        <!-- <section class="section-padding theme-bg">
                             <div class="container">
                                 <div class="login-wrapper">
                                     <div class="card-wrapper"></div>

@@ -65,7 +65,7 @@
         </xpath>
 
         <xpath expr="//div[@id='wrapwrap']/header/div[@class='navbar navbar-default navbar-static-top']" position="attributes">
-            <attribute name="class">header-sticky light-header</attribute>
+            <attribute name="class">header-sticky header-theme</attribute>
         </xpath>
 
         <xpath expr="//div[@id='wrapwrap']/header/div/div" position="inside">
@@ -114,13 +114,13 @@
         </xpath>
 
         <xpath expr="//ul[@id='top_menu']" position="attributes">
-            <attribute name="class">menuzord-menu pull-right light menuzord-indented scrollable</attribute>
+            <attribute name="class">menuzord-menu pull-right theme menuzord-indented scrollable</attribute>
             <attribute name="style">max-height: 400px;</attribute>
         </xpath>
 
         <xpath expr="//ul[@id='top_menu']" position="before">
             <a href="/" class="logo-brand">
-                <img class="logo-dark" src="/duplex_fe/static/assets/img/aranda-logo-full.png" t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
+                <img class="logo-theme" src="/duplex_fe/static/assets/img/aranda-logo-full.png" t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
                 <img class="logo-light" src="/duplex_fe/static/assets/img/aranda-logo-full-white.png" t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
             </a>
         </xpath>
