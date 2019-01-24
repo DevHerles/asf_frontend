@@ -44,34 +44,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900);
 @import url(https://fonts.googleapis.com/css?family=Great+Vibes);
 
-
-
-/* ================= General ==================== */
-
-body{
-    font-family: 'Raleway', sans-serif !important;
-    font-size: 14px;
-    line-height: 29px;
-    font-weight: 500;
-    color: #999;
-    background-color: #fff;
-    overflow-x: hidden;
-    -webkit-text-size-adjust: 100%;
-    -webkit-overflow-scrolling: touch;
-    -webkit-font-smoothing: antialiased !important;
-}
-
-html {
-    font-family: 'Raleway', sans-serif!important;
-}
-
-html,
-body {
-    width: 100%;
-    height: 100%;
-}
-
-
 /* Link style
 /* ------------------------------ */
 a {
@@ -103,47 +75,6 @@ a,
     transition: all 0.3s ease; 
 }
 
-
-/* ================ Typography ================== */
-
-h1, h2, h3, h4, h5, h6{
-    font-family: 'Raleway', sans-serif!important;
-    font-weight: 400;
-    color: #202020;
-    margin: 0 0 15px;
-}
-
-h1 {
-    font-size: 40px;
-}
-h2 {
-    font-size: 20px;
-}
-h3 {
-    font-size: 18px;
-}
-h4 {
-    font-size: 16px;
-}
-h5 {
-    font-size: 14px;
-}
-h6 {
-    font-size: 12px;
-}
-
-p img { 
-    margin: 0; 
-}
-
-p {
-    margin: 0 0 30px;
-    line-height: 30px;
-}
-
-hr {
-    margin: 0;
-}
 
 /* Material Button Style
 /* ------------------------------ */
@@ -2314,7 +2245,7 @@ KEY FRAME
     left: 0;
     height: 100%;
     width: 100%;
-    background: #fff;
+    background: orange;
     z-index: 999999;
     text-align:center;
 }
@@ -2336,9 +2267,5 @@ KEY FRAME
     margin: 35px 0;
 }
 #preloader .progress .indeterminate{
-    background:#66BB6A;
+    background: @primary-color;
 }
-
-
-
-

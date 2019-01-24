@@ -4,14 +4,14 @@
 
         <!-- === Features Page === -->
         <template name="Características" id="website.features" page="True">
-            <t t-call="website.layout">                    
+            <t t-call="website.layout">
                 <div id="wrap">
                     <!--page title start-->
-                    <section class="page-title ptb-140 page-title-bg" id="wrap-nav-bar">
+                    <section class="page-title ptb-140" id="wrap-nav-bar">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h2 class="text-bold white-text">Características</h2>
+                                    <h2 class="text-bold primary-text">Características</h2>
                                     <ol class="breadcrumb">
                                         <li><a href="/">Inicio</a></li>
                                         <li class="active">Características</li>

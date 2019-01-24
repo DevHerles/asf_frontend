@@ -62,7 +62,7 @@ button:focus {
 .package-price,
 .menuzord-menu ul.dropdown li >a::before, 
 .menuzord-menu>li>.megamenu .megamenu-row li >a::before {
-    background-color: @menuzord-menu-li-a-hover !important;
+    background-color: @header-theme !important;
 }
 
 
@@ -99,10 +99,10 @@ button:focus {
 .menuzord-menu>li {
     margin-left: 15px;
 }
-.nav-border-bottom .menuzord .menuzord-menu>li.active>a, 
-.nav-border-bottom .menuzord .menuzord-menu>li:hover>a {
-    border-bottom: 3px solid @nav-border-bottom;
-}
+/*.nav-border-bottom .menuzord .menuzord-menu>li.active>a, */
+/*.nav-border-bottom .menuzord .menuzord-menu>li:hover>a {*/
+    /*border-bottom: 3px solid @nav-border-bottom;*/
+/*}*/
 
 
 /* Form Style */
@@ -117,8 +117,8 @@ input[type=tel]:focus:not([readonly]),
 input[type=number]:focus:not([readonly]), 
 input[type=search]:focus:not([readonly]), 
 textarea.materialize-textarea:focus:not([readonly]) {
-    border-bottom: 1px solid @input-border-bottom;
-    box-shadow: 0 1px 0 0 @input-box-shadow; 
+    border-bottom: 2px solid @primary-color;
+    box-shadow: 0 1px 0 0 @primary-color; 
 }
 
 input[type=text]:focus:not([readonly]) + label, 

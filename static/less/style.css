@@ -374,3 +374,34 @@ footer newsletter
 .primary-footer.brand-bg .form-group input:-ms-input-placeholder {  
    color: #c5a4ff; 
 }
+
+/*colored icon*/
+.brand-icon {
+    color: #03a9f4;
+}
+.pink-icon {
+    color: #ed145b ;
+}
+.purple-icon {
+    color: #9c27b0;
+}
+.deep-purple-icon {
+    color: #673ab7;
+}
+.green-icon {
+    color: #8bc34a;
+}
+.cyan-icon {
+    color: #00bcd4;
+}
+.red-icon {
+    color: #f6483f;
+}
+.yellow-icon {
+    color: #f5c400;
+}
+.dark-icon {
+    color: @secondary-color;
+}
+
+

@@ -5,11 +5,11 @@
             <xpath expr="//div[@id='wrap']" position="replace">
                 <div id="wrap">
                     <!--page title start-->
-                    <section class="page-title ptb-140 page-title-bg" id="wrap-nav-bar">
+                    <section class="page-title ptb-140" id="wrap-nav-bar">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h2 class="text-bold white-text">Contáctenos</h2>
+                                    <h2 class="text-bold primary-text">Contáctenos</h2>
                                     <ol class="breadcrumb">
                                         <li><a href="/">Inicio</a></li>
                                         <li class="active">Contáctenos</li>
@@ -21,7 +21,6 @@
                     <!--page title end-->
 
                     <section id="contact" class="section-padding contact-form-wrapper bottom-20">
-                        
                         <div class="container">
                         <div class="row">
 

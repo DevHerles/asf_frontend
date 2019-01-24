@@ -11,7 +11,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h2 class="text-bold white-text">Nuestro servicios</h2>
+                                    <h2 class="text-bold primary-text">Nuestro servicios</h2>
                                     <ol class="breadcrumb">
                                         <li><a href="/">Inicio</a></li>
                                         <li class="active">Servicios</li>

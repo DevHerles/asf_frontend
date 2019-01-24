@@ -40,6 +40,7 @@
                 <link href="/duplex_fe/static/less/seo.less" rel="stylesheet" type="text/less"/>
                 <link href="/duplex_fe/static/less/style.less" rel="stylesheet" type="text/less"/>
                 <link href="/duplex_fe/static/less/login.less" rel="stylesheet" type="text/less"/>
+                <link href="/duplex_fe/static/less/pricing.less" rel="stylesheet" type="text/less"/>
             </xpath>
             <xpath expr="//script[last()]" position="after">
                 <!-- jQuery -->

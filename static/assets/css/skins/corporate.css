@@ -143,7 +143,7 @@ Background banner images
 
 /*page cover*/
 .page-title-bg {
-    background-image: url(../../img/corporate/page-cover.jpg);
+    /*background-image: url(../../img/corporate/page-cover.jpg);*/
     background-color: #446E2C;
 }
 

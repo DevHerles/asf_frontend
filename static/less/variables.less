@@ -38,22 +38,23 @@
 @theme-1:                       #272c30;
 @theme-2:                       #2d3035;
 
-@header-theme:			#21232f;	
-@menuzord-menu-li-a:		#a8a4d6;
-@menuzord-menu-li-a-hover:	#22b9ff;
-@input-color:			@menuzord-menu-li-a-hover;
-@input-box-shadow:		@input-color;
-@input-border-bottom:		@input-color;
-@nav-border-bottom:		@input-color;
-@border-bottom-tab:		@input-color;
+@header-theme:					#21232f;
+@menuzord-menu-li-a:			#a8a4d6;
+@menuzord-menu-li-a-hover:		#22b9ff;
+@input-color:					@menuzord-menu-li-a-hover;
+@input-box-shadow:				@input-color;
+@input-border-bottom:			@input-color;
+@nav-border-bottom:				@input-color;
+@border-bottom-tab:				@input-color;
 
-@feature-icon-color:		@menuzord-menu-li-a-hover;
+@feature-icon-color:			@menuzord-menu-li-a-hover;
 @topbar-color:                  @theme-0;
+@footerbar-color:				darken(@topbar-color, 2%);
 @body-color:                    #88939C; //lighten(@panel-background-color,65%);
 @body-secondary-color:          lighten(@panel-background-color,4%);
 @link-active-color:             @primary-color;
 @link-hover-color:              @link-active-color;
-@body-background-color:         darken(@panel-background-color,5%);
+@body-background-color:         darken(@header-theme,5%); //#343b4a
 
 @title-color:                   lighten(@panel-background-color,60%);
 @panel-background-color:        lighten(@topbar-color, 3%) !important;
@@ -61,12 +62,14 @@
 @tab-content-background-color:  lighten(@topbar-color, 0.5%);
 @form-input-hover-color:        @body-secondary-color;
 
-@border-line-color:             lighten(@panel-background-color,5%);
+@border-line-color:             lighten(@panel-background-color,10%);
 @active-background-color:       @border-line-color;
 @active-background-color-color: @active-background-color;
 @active-a-color:                lighten(@primary-color,60%);
 @disabled-color:                darken(@panel-background-color,12%);
 
+@pricing-background-color:      @header-theme;
+@asf-header-background-color:	@header-theme;
 
 @field-color:                       lighten(@panel-background-color,55%);
 @table-td-color:                    inherit; //lighten(@panel-background-color,28%); //#8a8d93;
@@ -130,7 +133,7 @@
 @input-color:                                           @body-color;
 @transition:                                            all 0.3s ease-out;
 @input-transition:                                      @transition;
-@form-required-background:                              @border-line-color;         
+@form-required-background:                              @border-line-color;
 @select-background-color:                               @panel-background-color;
 
 @tooltip-inner-background-color-color:                  @panel-background-color;
