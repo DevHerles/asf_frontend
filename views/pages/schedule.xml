@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+
+        <!-- === Schedule Page === -->
+        <template name="Programación" id="website.schedule" page="True">
+            <t t-call="website.layout">
+                <div id="wrap">
+                    <!--page title start-->
+                    <section class="page-title ptb-140" id="wrap-nav-bar">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2 class="text-bold primary-text">Programación</h2>
+                                    <ol class="breadcrumb">
+                                        <li><a href="/">Inicio</a></li>
+                                        <li class="active">Programación</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!--page title end-->
+
+                    <div class="container">
+                        <h2 class="text-bold text-uppercase font-40 center mb-30">SESIONES</h2>
+                        <div class="border-tab primary-nav corporate-demo-tab">
+
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs nav-justified" role="tablist">
+                                <li role="presentation" class="active"><a href="#tab-0" class="waves-effect waves-dark"  role="tab" data-toggle="tab">S1</a></li>
+                                <li role="presentation"><a href="#tab-1" class="waves-effect waves-dark" role="tab" data-toggle="tab">S2</a></li>
+                                <li role="presentation"><a href="#tab-2" class="waves-effect waves-dark" role="tab" data-toggle="tab">S3</a></li>
+                                <li role="presentation"><a href="#tab-3" class="waves-effect waves-dark" role="tab" data-toggle="tab">S4</a></li>
+                                <li role="presentation"><a href="#tab-4" class="waves-effect waves-dark" role="tab" data-toggle="tab">S5</a></li>
+                                <li role="presentation"><a href="#tab-5" class="waves-effect waves-dark" role="tab" data-toggle="tab">S6</a></li>
+                                <li role="presentation"><a href="#tab-6" class="waves-effect waves-dark" role="tab" data-toggle="tab">S7</a></li>
+                                <li role="presentation"><a href="#tab-7" class="waves-effect waves-dark" role="tab" data-toggle="tab">S8</a></li>
+                                <li role="presentation"><a href="#tab-8" class="waves-effect waves-dark" role="tab" data-toggle="tab">S9</a></li>
+                                <li role="presentation"><a href="#tab-9" class="waves-effect waves-dark" role="tab" data-toggle="tab">S10</a></li>
+                                <li role="presentation"><a href="#tab-10" class="waves-effect waves-dark" role="tab" data-toggle="tab">S11</a></li>
+                                <li role="presentation"><a href="#tab-11" class="waves-effect waves-dark" role="tab" data-toggle="tab">S12</a></li>
+                                <li role="presentation"><a href="#tab-12" class="waves-effect waves-dark" role="tab" data-toggle="tab">S13</a></li>
+                                <li role="presentation"><a href="#tab-13" class="waves-effect waves-dark" role="tab" data-toggle="tab">S14</a></li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="panel-body">
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane fade in active" id="tab-0">
+                                        <div class="row">
+                                            <div class="col-md-7 light-grey-text">
+                                                <h2 class="font-40 mb-30 white-text"> Comenzando con el desarrollo en Odoo </h2>
+                                                <p>
+                                                    En esta sesión aprenderemos a configurar un servidor Ubuntu 18.04, donde posteriormente instalaremos
+                                                    el servidor Odoo desde su repositorio oficial GitHub. Luego aprenderemos a instalar
+                                                    dependencias, crear bases de datos y ejecutar instancias Odoo. Además crearemos y configuraremos
+                                                    una cuenta GitHub el cual nos servirá para gestionar nuestros proyectos Odoo del curso.
+                                                </p>
+                                                <ul class="list-icon mb-30">
+                                                    <li><i class="material-icons">&#xE876;</i> Introducción.</li>
+                                                    <li><i class="material-icons">&#xE876;</i> Instalación y configuración de Ubuntu Server 18.04.</li>
+                                                    <li><i class="material-icons">&#xE876;</i> Instalación y configuración de base de datos PostgreSQL 10.0.</li>
+                                                    <li><i class="material-icons">&#xE876;</i> Instalación y configuración de dependencias de Odoo.</li>
+                                                    <li><i class="material-icons">&#xE876;</i> Instalación de Odoo en Ubuntu Server 18.04.</li>
+                                                    <li><i class="material-icons">&#xE876;</i> Iniciar y detener el servidor Odoo.</li>
+                                                    <li><i class="material-icons">&#xE876;</i> Creación de nuevas bases de datos Odoo.</li>
+                                                    <li><i class="material-icons">&#xE876;</i> Otras opciones de instalación y configuración de Odoo.</li>
+                                                    <li><i class="material-icons">&#xE876;</i> Instalación de módulos base y de terceros.</li>
+                                                    <li><i class="material-icons">&#xE876;</i> Creación y configuración de cuenta GitHub.</li>
+                                                </ul>
+                                                <p>
+                                                    En la próxima sesión crearemos nuetro primer módulo Odoo desde cero. Además
+                                                    comprenderemos los principales elemento que se involucran durante este proceso.
+                                                </p>
+                                                <a href="/page/contactus" class="btn btn-lg waves-effect waves-light">Contáctenos</a>
+                                            </div><!-- /.col-md-7 -->
+
+                                            <div class="col-md-5 mt-sm-30">
+                                                <img src="/duplex_fe/static/assets/img/seo/seo-info-light.png" alt="" class="img-responsive"/>
+                                            </div><!-- /.col-md-5 -->
+                                        </div><!-- /.row -->
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="tab-1">
+                                        <div class="row">
+                                            <div class="col-md-7 light-grey-text">
+                                                <h2 class="font-40 mb-30 white-text">Construya su primera aplicación Odoo</h2>
+                                                <p>
+                                                    En esta sección, usted creará su primera aplicación Odoo desde cero. Además conocerá los
+                                                    elemento más usados en un módulo: modelos, los tipos básicos de vistas (formulario, lista
+                                                    y búsqueda), lógica del negocio, métodos del modelo, y seguridad de acceso.
+                                                </p>
+                                                <p>
+                                                    Por otro lado, se familiarizará con el proceso de desarrollo del módulo, que implica
+													actualizaciones de módulos y reinicios del servidor de aplicaciones para que los cambios
+													graduales sean efectivos en Odoo.
+													Recuerde siempre que al agregar campos en el modelo, se necesita una actualización. Al cambiar
+													código de Python, incluido el archivo de manifiesto, es necesario reiniciar el servidor. Al cambiar los archivos XML o CSV,
+													se necesita una actualización; también, en caso de duda, haga lo siguiente: reinicie el servidor y actualice el
+													módulos
+                                                </p>
+                                                <ul class="list-icon mb-30">
+                                                    <li><i class="material-icons">&#xE876;</i> Conceptos básicos.</li>
+                                                    <li><i class="material-icons">&#xE876;</i> La capa del modelo.</li>
+                                                    <li><i class="material-icons">&#xE876;</i> La capa de la vista.</li>
+                                                    <li><i class="material-icons">&#xE876;</i> La capa de la lógica del negocio.</li>
+                                                    <li><i class="material-icons">&#xE876;</i> Configuración de seguridad de acceso.</li>
+                                                </ul>
+                                                <p>
+													En la siguiente sesión, aprenderá a modificar características en los módulo existentes (herencias).
+                                                </p>
+                                                <a href="/page/contactus" class="btn btn-lg waves-effect waves-light">Contáctenos</a>
+                                            </div><!-- /.col-md-7 -->
+
+                                            <div class="col-md-5 mt-sm-30">
+                                                <img src="/duplex_fe/static/assets/img/seo/seo-info-light.png" alt="" class="img-responsive"/>
+                                            </div><!-- /.col-md-5 -->
+                                        </div><!-- /.row -->
+
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="tab-2">
+                                        <div class="row">
+                                            <div class="col-md-7 light-grey-text">
+                                                <h2 class="font-40 mb-30 white-text">Herencia: Extendiendo módulos existentes</h2>
+                                                <p>
+                                                    En esta sección, usted creará su primera aplicación Odoo desde cero. Además conocerá los
+                                                    elemento más usados en un módulo: modelos, los tipos básicos de vistas (formulario, lista
+                                                    y búsqueda), lógica del negocio, métodos del modelo, y seguridad de acceso.
+                                                </p>
+                                                <ul class="list-icon mb-30">
+                                                    <li><i class="material-icons">&#xE876;</i> Conceptos básicos.</li>
+                                                    <li><i class="material-icons">&#xE876;</i> La capa del modelo.</li>
+                                                </ul>
+                                                <p>
+													En la siguiente sesión, aprenderá a modificar características en los módulo existentes (herencias).
+                                                </p>
+                                                <a href="/page/contactus" class="btn btn-lg waves-effect waves-light">Contáctenos</a>
+                                            </div><!-- /.col-md-7 -->
+
+                                            <div class="col-md-5 mt-sm-30">
+                                                <img src="/duplex_fe/static/assets/img/seo/seo-info-light.png" alt="" class="img-responsive"/>
+                                            </div><!-- /.col-md-5 -->
+                                        </div><!-- /.row -->
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="tab-3">
+                                        <div class="row">
+                                            <div class="col-md-7 light-grey-text">
+                                                <h2 class="font-40 mb-30 white-text">El módulo Data</h2>
+                                                <p>
+                                                    En esta sección, usted creará su primera aplicación Odoo desde cero. Además conocerá los
+                                                    elemento más usados en un módulo: modelos, los tipos básicos de vistas (formulario, lista
+                                                    y búsqueda), lógica del negocio, métodos del modelo, y seguridad de acceso.
+                                                </p>
+                                                <ul class="list-icon mb-30">
+                                                    <li><i class="material-icons">&#xE876;</i> Conceptos básicos.</li>
+                                                    <li><i class="material-icons">&#xE876;</i> La capa del modelo.</li>
+                                                </ul>
+                                                <p>
+													En la siguiente sesión, aprenderá a modificar características en los módulo existentes (herencias).
+                                                </p>
+                                                <a href="/page/contactus" class="btn btn-lg waves-effect waves-light">Contáctenos</a>
+                                            </div><!-- /.col-md-7 -->
+
+                                            <div class="col-md-5 mt-sm-30">
+                                                <img src="/duplex_fe/static/assets/img/seo/seo-info-light.png" alt="" class="img-responsive"/>
+                                            </div><!-- /.col-md-5 -->
+                                        </div><!-- /.row -->
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="tab-4">
+                                        <div class="row">
+                                            <div class="col-md-7 light-grey-text">
+                                                <h2 class="font-40 mb-30 white-text">Modelos: Estructurando los datos de la aplicación</h2>
+                                                <p>
+                                                    En esta sección, usted creará su primera aplicación Odoo desde cero. Además conocerá los
+                                                    elemento más usados en un módulo: modelos, los tipos básicos de vistas (formulario, lista
+                                                    y búsqueda), lógica del negocio, métodos del modelo, y seguridad de acceso.
+                                                </p>
+                                                <ul class="list-icon mb-30">
+                                                    <li><i class="material-icons">&#xE876;</i> Conceptos básicos.</li>
+                                                    <li><i class="material-icons">&#xE876;</i> La capa del modelo.</li>
+                                                </ul>
+                                                <p>
+													En la siguiente sesión, aprenderá a modificar características en los módulo existentes (herencias).
+                                                </p>
+                                                <a href="/page/contactus" class="btn btn-lg waves-effect waves-light">Contáctenos</a>
+                                            </div><!-- /.col-md-7 -->
+
+                                            <div class="col-md-5 mt-sm-30">
+                                                <img src="/duplex_fe/static/assets/img/seo/seo-info-light.png" alt="" class="img-responsive"/>
+                                            </div><!-- /.col-md-5 -->
+                                        </div><!-- /.row -->
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="tab-5">
+                                        <div class="row">
+                                            <div class="col-md-7 light-grey-text">
+                                                <h2 class="font-40 mb-30 white-text">Herencia: Extendiendo módulos existentes</h2>
+                                                <p>
+                                                    En esta sección, usted creará su primera aplicación Odoo desde cero. Además conocerá los
+                                                    elemento más usados en un módulo: modelos, los tipos básicos de vistas (formulario, lista
+                                                    y búsqueda), lógica del negocio, métodos del modelo, y seguridad de acceso.
+                                                </p>
+                                                <ul class="list-icon mb-30">
+                                                    <li><i class="material-icons">&#xE876;</i> Conceptos básicos.</li>
+                                                    <li><i class="material-icons">&#xE876;</i> La capa del modelo.</li>
+                                                </ul>
+                                                <p>
+													En la siguiente sesión, aprenderá a modificar características en los módulo existentes (herencias).
+                                                </p>
+                                                <a href="/page/contactus" class="btn btn-lg waves-effect waves-light">Contáctenos</a>
+                                            </div><!-- /.col-md-7 -->
+
+                                            <div class="col-md-5 mt-sm-30">
+                                                <img src="/duplex_fe/static/assets/img/seo/seo-info-light.png" alt="" class="img-responsive"/>
+                                            </div><!-- /.col-md-5 -->
+                                        </div><!-- /.row -->
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="tab-6">
+                                        <div class="row">
+                                            <div class="col-md-7 light-grey-text">
+                                                <h2 class="font-40 mb-30 white-text">Herencia: Extendiendo módulos existentes</h2>
+                                                <p>
+                                                    En esta sección, usted creará su primera aplicación Odoo desde cero. Además conocerá los
+                                                    elemento más usados en un módulo: modelos, los tipos básicos de vistas (formulario, lista
+                                                    y búsqueda), lógica del negocio, métodos del modelo, y seguridad de acceso.
+                                                </p>
+                                                <ul class="list-icon mb-30">
+                                                    <li><i class="material-icons">&#xE876;</i> Conceptos básicos.</li>
+                                                    <li><i class="material-icons">&#xE876;</i> La capa del modelo.</li>
+                                                </ul>
+                                                <p>
+													En la siguiente sesión, aprenderá a modificar características en los módulo existentes (herencias).
+                                                </p>
+                                                <a href="/page/contactus" class="btn btn-lg waves-effect waves-light">Contáctenos</a>
+                                            </div><!-- /.col-md-7 -->
+
+                                            <div class="col-md-5 mt-sm-30">
+                                                <img src="/duplex_fe/static/assets/img/seo/seo-info-light.png" alt="" class="img-responsive"/>
+                                            </div><!-- /.col-md-5 -->
+                                        </div><!-- /.row -->
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="tab-7">
+                                        <div class="row">
+                                            <div class="col-md-7 light-grey-text">
+                                                <h2 class="font-40 mb-30 white-text">Herencia: Extendiendo módulos existentes</h2>
+                                                <p>
+                                                    En esta sección, usted creará su primera aplicación Odoo desde cero. Además conocerá los
+                                                    elemento más usados en un módulo: modelos, los tipos básicos de vistas (formulario, lista
+                                                    y búsqueda), lógica del negocio, métodos del modelo, y seguridad de acceso.
+                                                </p>
+                                                <ul class="list-icon mb-30">
+                                                    <li><i class="material-icons">&#xE876;</i> Conceptos básicos.</li>
+                                                    <li><i class="material-icons">&#xE876;</i> La capa del modelo.</li>
+                                                </ul>
+                                                <p>
+													En la siguiente sesión, aprenderá a modificar características en los módulo existentes (herencias).
+                                                </p>
+                                                <a href="/page/contactus" class="btn btn-lg waves-effect waves-light">Contáctenos</a>
+                                            </div><!-- /.col-md-7 -->
+
+                                            <div class="col-md-5 mt-sm-30">
+                                                <img src="/duplex_fe/static/assets/img/seo/seo-info-light.png" alt="" class="img-responsive"/>
+                                            </div><!-- /.col-md-5 -->
+                                        </div><!-- /.row -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- /.border-bottom-tab -->
+                    </div><!-- /.container -->
+                </div>
+            </t>
+        </template>
+
+        <record id="features_page_link" model="website.menu">
+            <field name="name">Schedule</field>
+            <field name="url">/page/schedule</field>
+            <field name="parent_id" ref="website.main_menu" />
+            <field name="sequence" type="int">11</field>
+        </record>
+
+    </data>
+</odoo>

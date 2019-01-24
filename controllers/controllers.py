@@ -2,32 +2,33 @@
 from odoo import http
 from odoo.http import request
 
+import json
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 class CondominiumFrontend(http.Controller):
-    # @http.route('/page/duplex_fe/', auth='public', website=True)
-    # def index(self, **kw):
-    #     # return "Hello, world 222"
-    #     Teachers = http.request.env['duplex_fe.teachers']
 
-    #     return http.request.render('duplex_fe.index', {
-    #         'teachers': Teachers.search([]),
-    #     })
-
-    @http.route('/page/dashboard', auth='user', website=True)
+    @http.route('/page/schedule', auth='public', website=True)
     def list(self, **kw):
-        return http.request.render('website.dashboard')
+        return http.request.render('website.features')
 
-    @http.route('/website/fetch_dashboard_data', type="json", auth='user')
-    def fetch_dashboard_data(self, date_from, date_to):
+    @http.route('/page/dashboard', auth='public', website=True)
+    def dashboard(self, **kw):
+        users = http.request.env['res.users']
+        vals = {'title': 'Employees', 'users': users.search([])}
+        return http.request.render('website.dashboard', vals)
+
+    @http.route('/dashboard/data', type="json", auth='user', website=True)
+    def fetch_dashboard_data(self, **kw):
+        cr, context, pool, uid = request.cr, request.context, request.registry, request.uid
+        input_data = kw.get('input_data')
 
         params = request.env['ir.config_parameter']
         ga_client_id = params.sudo().get_param('google_management_client_id', default='')
 
         return {
-            'groups': {'system': request.env['res.users'].has_group('base.group_system')},
+            'user': {'user_id': request.env.user.name},
             'currency': request.env.user.company_id.currency_id.id,
             'dashboards': {
                 'visits': {
@@ -35,7 +36,7 @@ class CondominiumFrontend(http.Controller):
                 }
             }
         }
-        
+
     @http.route('/page/features', auth='public', website=True)
     def list(self, **kw):
         return http.request.render('website.features')
@@ -55,8 +56,8 @@ class CondominiumFrontend(http.Controller):
             phone = http.request.params['phone']
             website = http.request.params['website']
             message = http.request.params['message']
-            print (email); 
-            
+            print (email);
+
             msg = MIMEMultipart('alternative')
             msg['Subject'] = 'Contact Us'
             msg['From'] = 'noreply@duplex.pe'

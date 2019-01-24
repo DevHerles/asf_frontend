@@ -13,7 +13,7 @@
     <template id="info_header" inherit_id="website.layout" name="Custom Info Header">
         <xpath expr="//header" position="before">
             <!-- Top bar -->
-            <div class="top-bar dark-bg lighten-2 visible-md visible-lg">
+            <div class="top-bar top-bar-background visible-md visible-lg">
                 <div class="container">
                     <div class="row">
                     <!-- Social Icon -->
@@ -97,9 +97,9 @@
                         <p class="alert alert-success" t-if="message">
                             <t t-esc="message"/>
                         </p>
-                        
+
                         <input type="hidden" name="redirect" t-att-value="redirect"/>
-                        
+
                         <div class="button-container">
                             <a href="#." onclick="parentNode.parentNode.submit();" class="btn btn-lg btn-block waves-effect waves-light">Login</a>
                         </div>

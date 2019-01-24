@@ -4,14 +4,14 @@
         <template id="inherit_footer_default" inherit_id="website.footer_custom" customize_show="True" name="Automatic Footer">
             <xpath expr="//div[@id='footer']" position="replace">
                 <footer class="footer footer-four">
-            <div class="primary-footer dark-bg lighten-1 text-center">
+            <div class="primary-footer dark-bg footer-topbar text-center">
                 <div class="container">
 
                   <a href="#top" class="page-scroll btn-floating btn-large pink back-top waves-effect waves-light" data-section="#top">
                     <i class="material-icons">&#xE316;</i>
                   </a>
 
-                  <!-- <ul class="social-link tt-animate ltr mt-20">
+                  <ul class="social-link tt-animate ltr mt-20">
                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
@@ -21,7 +21,7 @@
                     <li><a href="#"><i class="fa fa-rss"></i></a></li>
                   </ul>
 
-                  <hr class="mt-15"/> -->
+                  <hr class="mt-15"/>
 
                   <div class="row">
                     <div class="col-md-12">
@@ -32,19 +32,19 @@
                           <span class="copy-text">Copyright (c) 2017 <a href="/page/contactus">Duplex ERP</a> | All Rights Reserved |  Designed By <a href="http://www.arandasf.com">Aranda Software Factory</a></span>
                           <div class="footer-intro">
                             <!-- <p>
-                                La información personal que proporcione a Duplex ERP a través del Servicio se rige por la Política de 
-                                privacidad de Duplex ERP. Su elección de utilizar el Servicio indica su aceptación de los términos de 
+                                La información personal que proporcione a Duplex ERP a través del Servicio se rige por la Política de
+                                privacidad de Duplex ERP. Su elección de utilizar el Servicio indica su aceptación de los términos de
                                 la Política de privacidad de Duplex ERP.
                             </p> -->
                             <p>
-                                Usted es responsable de mantener la confidencialidad de su nombre de usuario y contraseña. Además es 
-                                responsable de todas las actividades que ocurran en su cuenta y acepta informarnos inmediatamente 
-                                respecto a cualquier uso no autorizado de su cuenta de usuario ya sea por correo electrónico a 
-                                <a href="mailto:cuentas@duplex.pe">cuentas@duplex.pe</a> o llamándonos a cualquiera de los números 
+                                Usted es responsable de mantener la confidencialidad de su nombre de usuario y contraseña. Además es
+                                responsable de todas las actividades que ocurran en su cuenta y acepta informarnos inmediatamente
+                                respecto a cualquier uso no autorizado de su cuenta de usuario ya sea por correo electrónico a
+                                <a href="mailto:cuentas@duplex.pe">cuentas@duplex.pe</a> o llamándonos a cualquiera de los números
                                 que figuran en nuestra sección de <a href="/page/contactus">Contáctenos</a>.
                             </p>
                             <p>
-                                No somos responsables de ninguna pérdida o daño que sufra usted o cualquier tercero como resultado de 
+                                No somos responsables de ninguna pérdida o daño que sufra usted o cualquier tercero como resultado de
                                 un acceso y/o uso no autorizado de su cuenta de usuario.
                             </p>
                           </div>
@@ -53,7 +53,7 @@
                 </div><!-- /.container -->
             </div><!-- /.primary-footer -->
 
-            <div class="secondary-footer dark-bg lighten-2 text-center">
+            <div class="secondary-footer dark-bg footer-footerbar text-center">
                 <div class="container">
                     <ul>
                       <li><a href="/">Inicio</a></li>
@@ -68,14 +68,14 @@
 
                 <!-- Preloader -->
                 <div id="preloader">
-                <div class="preloader-position"> 
+                <div class="preloader-position">
                     <img src="/duplex_fe/static/assets/img/aranda-logo-ico.png" alt="logo" />
                     <div class="progress">
                     <div class="indeterminate"></div>
                     </div>
                 </div>
                 </div>
-                <!-- End Preloader -->  
+                <!-- End Preloader -->
 
             </xpath>
         </template>

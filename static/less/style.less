@@ -58,6 +58,7 @@ p img {
 p {
     margin: 0 0 30px;
     line-height: 30px;
+    font-size: 18px;
 }
 
 hr {
@@ -180,7 +181,7 @@ header .navbar-default {
 }
 
 .page-title {
-    background-color: @footerbar-color;
+    background-color: @titlebar-background-color; 
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -211,13 +212,8 @@ span.currency-symbol {
 .package-price .currency-code {
     color: lightgray;
 }
-
-.orange {
-    color: #fa873b;
-}
-
-.btn-orange {
-    background-color: #fa873b;
+.btn-background {
+    background-color: @btn-background-color;
 }
 
 .search-btn.custom-top {
@@ -756,15 +752,24 @@ Cards
     /*background-color: @primary-color;*/
 /*}*/
 
-.dark-bg.lighten-1 {
-    background-color: @topbar-color !important;
+.top-bar.top-bar-background {
+    background-color: @primary-color !important;
 }
 
-.dark-bg.lighten-2 {
-    background-color: @footerbar-color !important;
+.top-bar.footer-bar-background {
+    background-color: @footerbar-background-color !important;
 }
+
+.dark-bg.footer-topbar {
+    background-color: @footer-topbar-background-color !important;
+}
+
+.dark-bg.footer-footerbar {
+    background-color: @footer-footerbar-background-color !important;
+}
+
 .footer-four .secondary-footer ul li a{
-    color: @secondary-color;
+    color: @secondary-footerbar-color;
 }
 
 #preloader {
@@ -776,4 +781,8 @@ Cards
     background: @body-background-color;
     z-index: 999999;
     text-align:center;
+}
+
+a {
+	color: @theme-a-color;
 }

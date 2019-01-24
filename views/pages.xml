@@ -24,7 +24,7 @@
 
 <!-- 965405117 -->
 <!-- ximena tobar -->
-                
+
                 <section class="section-padding theme-bg">
                     <div class="container">
 
@@ -40,7 +40,7 @@
                                     <div class="table-header brand-hover">
                                         <div class="package-name">
                                             <span>Basic</span>
-                                        </div> 
+                                        </div>
 
                                         <div class="package-price">
                                             <span class="currency-symbol">$</span>
@@ -56,13 +56,13 @@
                                             <li>Printed T-Shirt</li>
                                             <li><del>Workshop</del></li>
                                             <li><del>Certificate</del></li>
-                                        </ul>                                
+                                        </ul>
                                     </div><!-- /.table-info -->
 
                                     <div class="table-footer">
                                         <div class="purchase-button">
                                             <a class="btn btn-lg text-capitalize waves-effect waves-light" href="">Buy Now</a>
-                                        </div>   
+                                        </div>
                                     </div> <!-- /.table-footer -->
                                 </div> <!-- /.table-contents -->
                             </div><!-- /.pricing-table -->
@@ -74,7 +74,7 @@
                                     <div class="table-header brand-hover">
                                         <div class="package-name">
                                             <span>Standard</span>
-                                        </div> 
+                                        </div>
 
                                         <div class="package-price">
                                             <span class="currency-symbol">$</span>
@@ -90,13 +90,13 @@
                                             <li>Printed T-Shirt</li>
                                             <li>Workshop</li>
                                             <li><del>Certificate</del></li>
-                                        </ul>                                
+                                        </ul>
                                     </div><!-- /.table-info -->
 
                                     <div class="table-footer">
                                         <div class="purchase-button">
                                             <a class="btn btn-lg text-capitalize waves-effect waves-light" href="">Buy Now</a>
-                                        </div>   
+                                        </div>
                                     </div> <!-- /.table-footer -->
                                 </div> <!-- /.table-contents -->
                             </div><!-- /.pricing-table -->
@@ -108,7 +108,7 @@
                                     <div class="table-header brand-hover">
                                         <div class="package-name">
                                             <span>Premium</span>
-                                        </div> 
+                                        </div>
 
                                         <div class="package-price">
                                             <span class="currency-symbol">$</span>
@@ -124,13 +124,13 @@
                                             <li>Printed T-Shirt</li>
                                             <li>Workshop</li>
                                             <li>Certificate</li>
-                                        </ul>                                
+                                        </ul>
                                     </div><!-- /.table-info -->
 
                                     <div class="table-footer">
                                         <div class="purchase-button">
                                             <a class="btn btn-lg text-capitalize waves-effect waves-light" href="">Buy Now</a>
-                                        </div>   
+                                        </div>
                                     </div> <!-- /.table-footer -->
                                 </div> <!-- /.table-contents -->
                             </div><!-- /.pricing-table -->

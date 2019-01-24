@@ -29,14 +29,15 @@
         # 'views/templates.xml',
         'views/layout.xml',
         # 'views/pages.xml',
-        
+
         'views/assets.xml',
         'views/footer.xml',
         'views/pages/home.xml',
         'views/pages/contactus.xml',
+        'views/pages/schedule.xml',
         'views/pages/features.xml',
         'views/pages/pricing.xml',
-        # 'views/pages/services.xml',
+        'views/pages/services.xml',
         'views/pages/login.xml',
         'views/pages/404.xml',
         'views/pages/dashboard.xml',

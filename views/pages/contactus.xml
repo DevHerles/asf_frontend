@@ -68,7 +68,7 @@
                                     <label for="message">Mensaje</label>
                                     </div>
 
-                                    <button type="submit" name="submit" class="waves-effect waves-light btn btn-orange right mt-30">Enviar mensaje</button>
+                                    <button type="submit" name="submit" class="waves-effect waves-light btn btn-background right mt-30">Enviar mensaje</button>
                                 </form>
                             </div><!-- /.col-md-8 -->
 
@@ -123,12 +123,12 @@
                             });
                         }
                     </script>
-                        
+
                     <script async="async" defer="defer" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4syMXeAKc_mu9pNFqSmtzkQHom4f5f4g&amp;callback=initMap"
                         type="text/javascript"/>
 
                 </div>
             </xpath>
-            </template> 
+            </template>
     </data>
 </odoo>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
     <data>
-    
+
         <template id="mystyle" name="My style" inherit_id="website.assets_frontend">
             <xpath expr="link[last()]" position="after">
                 <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,900' rel='stylesheet' type='text/css'/>
@@ -41,6 +41,9 @@
                 <link href="/duplex_fe/static/less/style.less" rel="stylesheet" type="text/less"/>
                 <link href="/duplex_fe/static/less/login.less" rel="stylesheet" type="text/less"/>
                 <link href="/duplex_fe/static/less/pricing.less" rel="stylesheet" type="text/less"/>
+                <link href="/duplex_fe/static/less/tabs.less" rel="stylesheet" type="text/less"/>
+                <link href="/duplex_fe/static/less/accordion.less" rel="stylesheet" type="text/less"/>
+                <link href="/duplex_fe/static/less/footer.less" rel="stylesheet" type="text/less"/>
             </xpath>
             <xpath expr="//script[last()]" position="after">
                 <!-- jQuery -->
@@ -64,6 +67,9 @@
                 <script src="/duplex_fe/static/assets/js/jquery.sparkline.min.js"></script>
                 <script src="/duplex_fe/static/assets/js/dashboard-analytics.js"></script>
                 <script src="/duplex_fe/static/assets/js/scripts.js"></script>
+                <script src="/duplex_fe/static/src/js/underscore-min.js"></script>
+                <script src="/duplex_fe/static/src/js/backbone-min.js"></script>
+                <script src="/duplex_fe/static/src/js/duplex_fe_2.js"></script>
 
                 <!-- <script type="text/javascript">
                     $('.owl-carousel').owlCarousel({
@@ -83,7 +89,7 @@
                         }
                     })
                 </script> -->
-                
+
                 <!-- Google Map Customization  -->
                 <!-- <script type="text/javascript">
                     jQuery(document).ready(function() {
@@ -93,7 +99,7 @@
                             $longitude = -73.995763,
                             $map_zoom = 16 /* ZOOM SETTING */
 
-                        //google map custom marker icon 
+                        //google map custom marker icon
                         var $marker_url = 'assets/img/pin.png';
 
                         //we define here the style of the map
@@ -123,7 +129,7 @@
                         }
                         //inizialize the map
                         var map = new google.maps.Map(document.getElementById('myMap'), map_options);
-                        //add a custom marker to the map                
+                        //add a custom marker to the map
                         var marker = new google.maps.Marker({
                             position: new google.maps.LatLng($latitude, $longitude),
                             map: map,
@@ -142,7 +148,7 @@
                         });
                     });
                 </script>
-                 -->    
+                 -->
                 <!-- RS5.0 Core JS Files -->
                 <script src="/duplex_fe/static/assets/revolution/js/jquery.themepunch.tools.min.js"></script>
                 <script src="/duplex_fe/static/assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
@@ -209,12 +215,12 @@
                         });
                     }
                 </script>
-                    
+
                 <script async="async" defer="defer" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4syMXeAKc_mu9pNFqSmtzkQHom4f5f4g&amp;callback=initMap"
                     type="text/javascript"/> -->
-                    
+
                 <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems! The following part can be removed on Server for On Demand Loading) -->
-                
+
                 <script type="text/javascript" src="/duplex_fe/static/assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
                 <script type="text/javascript" src="/duplex_fe/static/assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
                 <script type="text/javascript" src="/duplex_fe/static/assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
@@ -226,6 +232,6 @@
 
             </xpath>
         </template>
-        
+
     </data>
 </odoo>

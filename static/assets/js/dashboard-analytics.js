@@ -5,7 +5,7 @@
 // Trending line chart data	 
 	var trendingLineChart;
 	var data = {
-		labels: ["Apple Pie", "Samsung", "SONY", "Motorola", "Nokia", "Microsoft", "Xiaomi"],
+		labels: ["Apple Pie", "Samsung", "SONY", "Motorola", "Aranda", "Microsoft", "Xiaomi"],
 		datasets: [{
 				label: "First dataset",
 				fillColor: "rgba(128, 222, 234, 0.6)",
@@ -25,10 +25,30 @@
 				pointHighlightFill: "#80deea",
 				pointHighlightStroke: "#80deea",
 				data: [60, 20, 190, 80, 50, 85, 40]
+			},
+			{
+				label: "Third dataset",
+				fillColor: "rgba(128, 222, 234, 0.3)",
+				strokeColor: "#80deea",
+				pointColor: "#00bcd4",
+				pointStrokeColor: "#80deea",
+				pointHighlightFill: "#80deea",
+				pointHighlightStroke: "#80deea",
+				data: [190, 50, 85, 80, 200, 65, 40]
 			}
 		]
 	};
-
+    var jqxhr = $.ajax( "dashboard/data", {'var1': 1, 'var2': 2} )
+    .done(function(data) {
+        console.log( "success" );
+        })
+    .fail(function(error) {
+        console.log( "error" );
+        })
+    .always(function() {
+        console.log( "complete" );
+        });
+ 
 	setInterval(function() {
 		// Get a random index point
 		var indexToUpdate = Math.round(Math.random() * (data.labels.length - 1));
@@ -39,6 +59,9 @@
 			}
 			if (trendingLineChart.datasets[1].points[indexToUpdate].value) {
 				trendingLineChart.datasets[1].points[indexToUpdate].value = Math.round(Math.random() * 100);
+			}
+			if (trendingLineChart.datasets[2].points[indexToUpdate].value) {
+				trendingLineChart.datasets[2].points[indexToUpdate].value = Math.round(Math.random() * 100);
 			}
 			trendingLineChart.update();
 		}

@@ -65,7 +65,7 @@
                             </div>
                         </div><!-- /.container -->
                     </section>
-                    
+
                     <section class="section-padding-features first">
                         <div class="container">
 
@@ -73,7 +73,7 @@
                             <h2 class="section-title text-uppercase">Condominio</h2>
                             <p class="section-sub">
                                 Simplifique todos los procesos de emisión de cuotas de mantenimiento con un único paso, envíe recordatorios
-                                de pago fácilmente mediante correo electrónico y más... 
+                                de pago fácilmente mediante correo electrónico y más...
                             </p>
                         </div>
 
@@ -159,7 +159,7 @@
                             <div class="text-center mb-80 wow fadeInUp asf-header">
                                 <h2 class="section-title text-uppercase">Blog</h2>
                                 <p class="section-sub">
-                                    Publique información importante y interactue con sus vecinos. 
+                                    Publique información importante y interactue con sus vecinos.
                                 </p>
                             </div>
                             <div class="row equal-height-row">
@@ -244,7 +244,7 @@
                             <div class="text-center mb-80 wow fadeInUp asf-header">
                                 <h2 class="section-title text-uppercase">Compras</h2>
                                 <p class="section-sub">
-                                    Automatice las solicitudes de presupuesto y los pedidos de compra basándose en 
+                                    Automatice las solicitudes de presupuesto y los pedidos de compra basándose en
                                     existencias mínimas u órdenes de venta, y lleve el registro de los envíos entrantes.
                                 </p>
                             </div>
@@ -257,9 +257,9 @@
                                         <div class="desc">
                                             <h2>Automatice su flujo de compras</h2>
                                             <p>
-                                                Mejore el rendimiento de sus compras e inventarios con reglas de contratación 
-                                                en función de los niveles de existencias, órdenes de venta, órdenes de fabricación 
-                                                previstas etc. Seleccione diferentes métodos de reposición para cada producto 
+                                                Mejore el rendimiento de sus compras e inventarios con reglas de contratación
+                                                en función de los niveles de existencias, órdenes de venta, órdenes de fabricación
+                                                previstas etc. Seleccione diferentes métodos de reposición para cada producto
                                                 dependiendo de sus estrategias de fabricación y entrega.
                                             </p>
                                         </div>
@@ -274,8 +274,8 @@
                                         <div class="desc">
                                             <h2>Tome decisiones de compra inteligentes aprovechando los mejores precios</h2>
                                             <p>
-                                                Importe fácilmente listas de precios para tomar decisiones de compra más 
-                                                inteligentes basándose en promociones, cantidades y condiciones 
+                                                Importe fácilmente listas de precios para tomar decisiones de compra más
+                                                inteligentes basándose en promociones, cantidades y condiciones
                                                 contractuales especiales.
                                             </p>
                                         </div>
@@ -290,7 +290,7 @@
                                         <div class="desc">
                                             <h2>Gestionar pedidos</h2>
                                             <p>
-                                                Monitorizar el estado de sus pedidos y la fecha esperada de entrega. Monitorizar 
+                                                Monitorizar el estado de sus pedidos y la fecha esperada de entrega. Monitorizar
                                                 su stock y determinar la cantidad y ubicaciones de cada lote de artículos que reciba.
                                             </p>
                                         </div>
@@ -305,7 +305,7 @@
                                         <div class="desc">
                                             <h2>Gestionar facturación</h2>
                                             <p>
-                                                Diseñar borradores de facturas que puede modificar fácilmente o cancelar después. 
+                                                Diseñar borradores de facturas que puede modificar fácilmente o cancelar después.
                                                 Monitorizar pedidos que han sido creados para una fecha futura.
                                             </p>
                                         </div>
@@ -320,8 +320,8 @@
                                         <div class="desc">
                                             <h2>Gestionar productos</h2>
                                             <p>
-                                                Crear productos, Añadir referencia proveedor, Comprobar stock y disponiblidad, 
-                                                Especificar la ubicación del almacenaje y Filtros de búsqueda ideal.                                                
+                                                Crear productos, Añadir referencia proveedor, Comprobar stock y disponiblidad,
+                                                Especificar la ubicación del almacenaje y Filtros de búsqueda ideal.
                                             </p>
                                         </div>
                                     </div><!-- /.featured-item -->
@@ -336,7 +336,7 @@
                             <div class="text-center mb-80 wow fadeInUp asf-header">
                                 <h2 class="section-title text-uppercase">Ventas</h2>
                                 <p class="section-sub">
-                                    Actualice automáticamente sus niveles de existencias y prevea cantidades en base a las ofertas, 
+                                    Actualice automáticamente sus niveles de existencias y prevea cantidades en base a las ofertas,
                                     presupuestos y órdenes de venta.
                                 </p>
                             </div>
@@ -363,8 +363,8 @@
                                         <div class="desc">
                                             <h2>Comuníquese rápida y efectivamente</h2>
                                             <p>
-                                                Obtenga alertas personalizadas para actividades relevantes, comuníquese 
-                                                directamente con las cotizaciones por correo electrónico y mantenga 
+                                                Obtenga alertas personalizadas para actividades relevantes, comuníquese
+                                                directamente con las cotizaciones por correo electrónico y mantenga
                                                 automáticamente registros completos de sus negociaciones.
                                             </p>
                                         </div>
@@ -379,9 +379,9 @@
                                         <div class="desc">
                                             <h2>Órdenes de ventas</h2>
                                             <p>
-                                                Convierta presupuestos en órdenes de venta con un solo clic. Ahorre tiempo 
-                                                gracias a la posibilidad de modificar sus órdenes de venta y enviar pedidos 
-                                                parciales.                                                    
+                                                Convierta presupuestos en órdenes de venta con un solo clic. Ahorre tiempo
+                                                gracias a la posibilidad de modificar sus órdenes de venta y enviar pedidos
+                                                parciales.
                                             </p>
                                         </div>
                                     </div><!-- /.featured-item -->
@@ -395,8 +395,8 @@
                                         <div class="desc">
                                             <h2>Gestione la Facturación de sus Órdenes de Venta</h2>
                                             <p>
-                                                Facture por cantidades pedidas o entregadas. Gestione las condiciones de pago 
-                                                por cliente o por factura. Fácil rastreo y seguimiento de los vencimientos de 
+                                                Facture por cantidades pedidas o entregadas. Gestione las condiciones de pago
+                                                por cliente o por factura. Fácil rastreo y seguimiento de los vencimientos de
                                                 las facturas.
                                             </p>
                                         </div>
@@ -411,8 +411,8 @@
                                         <div class="desc">
                                             <h2>Portal del cliente</h2>
                                             <p>
-                                                Conceda a sus clientes acceso a un portal online para ver sus ofertas y pedidos 
-                                                de venta, y realizar seguimiento del estado de las órdenes de entrega en tiempo 
+                                                Conceda a sus clientes acceso a un portal online para ver sus ofertas y pedidos
+                                                de venta, y realizar seguimiento del estado de las órdenes de entrega en tiempo
                                                 real.
                                             </p>
                                         </div>
@@ -427,8 +427,8 @@
                                         <div class="desc">
                                             <h2>Tipos de productos</h2>
                                             <p>
-                                                Gestione cualquier tipo de producto, incluidos servicios, artículos almacenables, 
-                                                gastos de envío, productos electrónicos, consumibles, departamentos, depósitos o 
+                                                Gestione cualquier tipo de producto, incluidos servicios, artículos almacenables,
+                                                gastos de envío, productos electrónicos, consumibles, departamentos, depósitos o
                                                 estacionamientos.
                                             </p>
                                         </div>
@@ -458,8 +458,8 @@
                             <div class="text-center mb-80 wow fadeInUp asf-header">
                                 <h2 class="section-title text-uppercase">Contabilidad</h2>
                                 <p class="section-sub">
-                                    Sáltese la introducción de datos. El Inventario está plenamente integrado con la 
-                                    Contabilidad, de modo que los movimientos de existencias se plasman en sus libros 
+                                    Sáltese la introducción de datos. El Inventario está plenamente integrado con la
+                                    Contabilidad, de modo que los movimientos de existencias se plasman en sus libros
                                     en tiempo real.
                                 </p>
                             </div>
@@ -472,7 +472,7 @@
                                         <div class="desc">
                                             <h2>Facturación</h2>
                                             <p>
-                                                Cree facturas precisas y profesionales, gestione facturas recurrentes y 
+                                                Cree facturas precisas y profesionales, gestione facturas recurrentes y
                                                 realice el seguimiento de los pagos de forma sencilla.
                                             </p>
                                         </div>
@@ -487,8 +487,8 @@
                                         <div class="desc">
                                             <h2>Gestione facturas y gastos</h2>
                                             <p>
-                                                Controle las facturas de los proveedores y cree una clara previsión de las 
-                                                futuras facturas a pagar.                                                    
+                                                Controle las facturas de los proveedores y cree una clara previsión de las
+                                                futuras facturas a pagar.
                                             </p>
                                         </div>
                                     </div><!-- /.featured-item -->
@@ -502,7 +502,7 @@
                                         <div class="desc">
                                             <h2>Facturas electrónicas y seguimiento automatizado.</h2>
                                             <p>
-                                                Haga facturas de forma automática para órdenes de venta, órdenes de entrega 
+                                                Haga facturas de forma automática para órdenes de venta, órdenes de entrega
                                                 o basadas en tiempo y material.
                                             </p>
                                         </div>
@@ -529,8 +529,8 @@
                                         <div class="desc">
                                             <h2>Trazabilidad total</h2>
                                             <p>
-                                                Siga los movimientos de sus existencias desde la compra hasta el almacén y 
-                                                hasta la orden de venta. Localice lotes o series en sentido ascendente o 
+                                                Siga los movimientos de sus existencias desde la compra hasta el almacén y
+                                                hasta la orden de venta. Localice lotes o series en sentido ascendente o
                                                 descendente en cualquier punto de su cadena de suministros.
                                             </p>
                                         </div>
@@ -545,8 +545,8 @@
                                         <div class="desc">
                                             <h2>Manténgase al día con informes en tiempo real.</h2>
                                             <p>
-                                                Tome mejores decisiones con la ayuda de informes dinámicos en tiempo real 
-                                                que puede guardar y compartir con quien desee. Mantenga la información 
+                                                Tome mejores decisiones con la ayuda de informes dinámicos en tiempo real
+                                                que puede guardar y compartir con quien desee. Mantenga la información
                                                 clave al alcance de la mano con los paneles de control personalizados.
                                             </p>
                                         </div>
@@ -562,7 +562,7 @@
                                             <h2>Mejore el rendimiento y tiempo de procesamiento</h2>
                                             <p>
                                                 Organice mejor su almacén con el eficiente sistema de inventario de doble entrada.
-                                                Obtenga el método de almacenamiento más eficiente y mejore todas sus operaciones 
+                                                Obtenga el método de almacenamiento más eficiente y mejore todas sus operaciones
                                                 internas.
                                             </p>
                                         </div>
@@ -571,31 +571,17 @@
                             </div><!-- /.row -->
                         </div><!-- /.container -->
                     </section>
-                    
+
                 </div>
             </t>
         </template>
 
-        <record id="features_page_link" model="website.menu">
+        <record id="schedule_page_link" model="website.menu">
             <field name="name">Features</field>
             <field name="url">/page/features</field>
             <field name="parent_id" ref="website.main_menu" />
             <field name="sequence" type="int">50</field>
         </record>
 
-        <!-- <record id="features_page_link1" model="website.menu">
-            <field name="name">Features</field>
-            <field name="url">/page/features</field>
-            <field name="parent_id" ref="features_page_link" />
-            <field name="sequence" type="int">50</field>
-        </record>
-         -->
-
-        
-        <!-- <template id="megamenu_features_page" inherit_id="duplex_fe.website.features" customize_show="True" name="Show Megamenu">
-            <xpath expr="//a[@href='/page/features']" position="after">
-                <div>demo</div>
-            </xpath>
-        </template> -->
     </data>
 </odoo>

@@ -34,10 +34,13 @@
 @tertiary-color:                @white;
 @quaternary-color:              @sea;
 
-@theme-0:                       #0b0c21;
+@theme-0:                       #17181C; //#0b0c21;
 @theme-1:                       #272c30;
 @theme-2:                       #2d3035;
+@theme-button-background-color: #A44404; //#fa873b;
+@theme-a-color:					@orange;
 
+@titlebar-background-color:     lighten(@theme-0, 0.01%);
 @header-theme:					#21232f;
 @menuzord-menu-li-a:			#a8a4d6;
 @menuzord-menu-li-a-hover:		#22b9ff;
@@ -48,18 +51,24 @@
 @border-bottom-tab:				@input-color;
 
 @feature-icon-color:			@menuzord-menu-li-a-hover;
-@topbar-color:                  @theme-0;
-@footerbar-color:				darken(@topbar-color, 2%);
+@topbar-background-color:       @primary-color;
+@footerbar-background-color:	darken(@topbar-background-color, 8%);
+@footer-topbar-background-color:@header-theme;
+@footer-footerbar-background-color:	darken(@footer-topbar-background-color, 8%);
+@secondary-footerbar-color:	    @white;
 @body-color:                    #88939C; //lighten(@panel-background-color,65%);
 @body-secondary-color:          lighten(@panel-background-color,4%);
 @link-active-color:             @primary-color;
 @link-hover-color:              @link-active-color;
 @body-background-color:         darken(@header-theme,5%); //#343b4a
 
+@accordion-panel-title-color:	@white;
+@accordion-panel-title-background-color: lighten(@body-background-color,5%);
+
 @title-color:                   lighten(@panel-background-color,60%);
-@panel-background-color:        lighten(@topbar-color, 3%) !important;
+@panel-background-color:        lighten(@topbar-background-color, 3%) !important;
 @tab-background-color:          @panel-background-color;
-@tab-content-background-color:  lighten(@topbar-color, 0.5%);
+@tab-content-background-color:  lighten(@topbar-background-color, 0.5%);
 @form-input-hover-color:        @body-secondary-color;
 
 @border-line-color:             lighten(@panel-background-color,10%);
@@ -77,7 +86,7 @@
 @form-sheet-background:         @body-background-color;
 @form-input-color:              @field-color;
 @searchview-input-color:        @title-color;
-@search-options-hover-color:    @topbar-color;
+@search-options-hover-color:    @topbar-background-color;
 @button-hover-color:            @title-color;
 @primary-color-dark-20:         darken(@primary-color, 80%);
 @primary-color-dark-10:         darken(@primary-color, 30%);
@@ -92,8 +101,8 @@
 @menu-item-left-border-color:                           @secondary-color;
 
 @dropdown-menu-item-color:                              @menu-item-color;
-@dropdown-menu-item-background-color:                   @topbar-color;
-@dropdown-menu-item-background-color-color:             @topbar-color;
+@dropdown-menu-item-background-color:                   @topbar-background-color;
+@dropdown-menu-item-background-color-color:             @topbar-background-color;
 @dropdown-menu-item-active-background-color-color:      @dropdown-menu-item-background-color-color;
 @dropdown-menu-item-hover-color:                        @menu-item-hover-color;
 @dropdown-menu-item-background-hover-color:             @primary-color;
@@ -102,9 +111,9 @@
 @dropdown-menu-header-item-color:                       @secondary-color;
 @dropdown-menu-header-item-background-color:            darken(@primary-color, 10%);
 
-@navbar-inverse-background:                             @topbar-color;
+@navbar-inverse-background:                             @topbar-background-color;
 @navbar-nav-active-color:                               @body-background-color;
-@o_sub_menu:                                            @topbar-color;
+@o_sub_menu:                                            @topbar-background-color;
 @o_main_backround:                                      transparent;
 @view_manager_content:                                  transparent; //@body-background-color; //@topbar-color;
 @pivot-table-background-color-color:                    transparent;
@@ -143,7 +152,7 @@
 @box-shadow:                                            0 0 0 0.2rem @primary-color;
 
 @btn-color:                                             @tertiary-color;
-@btn-background-color:                                  rgba(36, 41, 44, 0.5);
+@btn-background-color:                                  @theme-button-background-color;
 @btn-border-color:                                      @btn-background-color;
 @btn-primary-color:                                     #121521;
 @btn-active-color:                                      @secondary-color;
@@ -156,7 +165,7 @@
 @btn-default-disabled-background-color-color:           @border-line-color;
 @btn-default-disabled-border-color:                     @body-background-color;
 @btn-txt-background-color:                              @quaternary-color;
-@btn-txt-color:                                         @topbar-color;
+@btn-txt-color:                                         @topbar-background-color;
 
 @header-border-color:                                   none;
 @header-border-bottom-color:                            @border-line-color;
@@ -176,11 +185,11 @@
 
 @navigation-menu-a-color:                               rgba(255,255,255,.7);
 
-@table-head-background-color:                           darken(@topbar-color, 3%);
+@table-head-background-color:                           darken(@topbar-background-color, 3%);
 @table-head-color:                                      @secondary-color;
-@table-tbody-td-border-color:                           lighten(@topbar-color, 5%);
-@table-td-background-color:                             darken(@topbar-color, 5%);
-@table-tr-hover-background-color:                       darken(@topbar-color, 3%);
+@table-tbody-td-border-color:                           lighten(@topbar-background-color, 5%);
+@table-td-background-color:                             darken(@topbar-background-color, 5%);
+@table-tr-hover-background-color:                       darken(@topbar-background-color, 3%);
 
 @breadcrumbs-background-color:                          darken(@border-line-color, 4%);
 @breadcrumbs-active-background-color:                   darken(@border-line-color, 8%);
